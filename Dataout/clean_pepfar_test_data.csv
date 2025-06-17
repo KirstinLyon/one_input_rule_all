@@ -1,0 +1,1441 @@
+country,indicator,description,value,period
+Angola,HTS_TST,Individuals tested for HIV and received their results,30884,2020 Q1
+Angola,HTS_TST,Individuals tested for HIV and received their results,38472,2020 Q2
+Angola,HTS_TST,Individuals tested for HIV and received their results,29086,2020 Q3
+Angola,HTS_TST,Individuals tested for HIV and received their results,31751,2020 Q4
+Angola,HTS_TST,Individuals tested for HIV and received their results,32188,2021 Q1
+Angola,HTS_TST,Individuals tested for HIV and received their results,37671,2021 Q2
+Angola,HTS_TST,Individuals tested for HIV and received their results,41679,2021 Q3
+Angola,HTS_TST,Individuals tested for HIV and received their results,37697,2021 Q4
+Angola,HTS_TST,Individuals tested for HIV and received their results,36312,2022 Q1
+Angola,HTS_TST,Individuals tested for HIV and received their results,37705,2022 Q2
+Angola,HTS_TST,Individuals tested for HIV and received their results,42004,2022 Q3
+Angola,HTS_TST,Individuals tested for HIV and received their results,36657,2022 Q4
+Angola,HTS_TST,Individuals tested for HIV and received their results,41567,2023 Q1
+Angola,HTS_TST,Individuals tested for HIV and received their results,48770,2023 Q2
+Angola,HTS_TST,Individuals tested for HIV and received their results,44594,2023 Q3
+Angola,HTS_TST,Individuals tested for HIV and received their results,41299,2023 Q4
+Angola,HTS_TST,Individuals tested for HIV and received their results,40554,2024 Q1
+Angola,HTS_TST,Individuals tested for HIV and received their results,51376,2024 Q2
+Angola,HTS_TST,Individuals tested for HIV and received their results,55003,2024 Q3
+Angola,HTS_TST,Individuals tested for HIV and received their results,45611,2024 Q4
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1347,2020 Q1
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1823,2020 Q2
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1321,2020 Q3
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1630,2020 Q4
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1414,2021 Q1
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1726,2021 Q2
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1920,2021 Q3
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1910,2021 Q4
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1787,2022 Q1
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1812,2022 Q2
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1889,2022 Q3
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1522,2022 Q4
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1482,2023 Q1
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1579,2023 Q2
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1502,2023 Q3
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1522,2023 Q4
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1346,2024 Q1
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1438,2024 Q2
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1668,2024 Q3
+Angola,HTS_TST_POS,Individuals newly tested positive for HIV,1393,2024 Q4
+Angola,TB_STAT_D,TB cases with documented HIV status,669,2020 Q1
+Angola,TB_STAT_D,TB cases with documented HIV status,746,2020 Q2
+Angola,TB_STAT_D,TB cases with documented HIV status,853,2020 Q3
+Angola,TB_STAT_D,TB cases with documented HIV status,701,2020 Q4
+Angola,TB_STAT_D,TB cases with documented HIV status,649,2021 Q1
+Angola,TB_STAT_D,TB cases with documented HIV status,707,2021 Q2
+Angola,TB_STAT_D,TB cases with documented HIV status,844,2021 Q3
+Angola,TB_STAT_D,TB cases with documented HIV status,761,2021 Q4
+Angola,TB_STAT_D,TB cases with documented HIV status,454,2022 Q1
+Angola,TB_STAT_D,TB cases with documented HIV status,763,2022 Q2
+Angola,TB_STAT_D,TB cases with documented HIV status,842,2022 Q3
+Angola,TB_STAT_D,TB cases with documented HIV status,769,2022 Q4
+Angola,TB_STAT_D,TB cases with documented HIV status,635,2023 Q1
+Angola,TB_STAT_D,TB cases with documented HIV status,582,2023 Q2
+Angola,TB_STAT_D,TB cases with documented HIV status,587,2023 Q3
+Angola,TB_STAT_D,TB cases with documented HIV status,588,2023 Q4
+Angola,TB_STAT_D,TB cases with documented HIV status,643,2024 Q1
+Angola,TB_STAT_D,TB cases with documented HIV status,722,2024 Q2
+Angola,TB_STAT_D,TB cases with documented HIV status,603,2024 Q3
+Angola,TB_STAT_D,TB cases with documented HIV status,682,2024 Q4
+Angola,TB_STAT_N,TB cases with documented HIV status,619,2020 Q1
+Angola,TB_STAT_N,TB cases with documented HIV status,736,2020 Q2
+Angola,TB_STAT_N,TB cases with documented HIV status,843,2020 Q3
+Angola,TB_STAT_N,TB cases with documented HIV status,700,2020 Q4
+Angola,TB_STAT_N,TB cases with documented HIV status,629,2021 Q1
+Angola,TB_STAT_N,TB cases with documented HIV status,691,2021 Q2
+Angola,TB_STAT_N,TB cases with documented HIV status,834,2021 Q3
+Angola,TB_STAT_N,TB cases with documented HIV status,746,2021 Q4
+Angola,TB_STAT_N,TB cases with documented HIV status,447,2022 Q1
+Angola,TB_STAT_N,TB cases with documented HIV status,758,2022 Q2
+Angola,TB_STAT_N,TB cases with documented HIV status,814,2022 Q3
+Angola,TB_STAT_N,TB cases with documented HIV status,761,2022 Q4
+Angola,TB_STAT_N,TB cases with documented HIV status,615,2023 Q1
+Angola,TB_STAT_N,TB cases with documented HIV status,570,2023 Q2
+Angola,TB_STAT_N,TB cases with documented HIV status,584,2023 Q3
+Angola,TB_STAT_N,TB cases with documented HIV status,579,2023 Q4
+Angola,TB_STAT_N,TB cases with documented HIV status,637,2024 Q1
+Angola,TB_STAT_N,TB cases with documented HIV status,713,2024 Q2
+Angola,TB_STAT_N,TB cases with documented HIV status,587,2024 Q3
+Angola,TB_STAT_N,TB cases with documented HIV status,675,2024 Q4
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,84,2020 Q1
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,108,2020 Q2
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,109,2020 Q3
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,105,2020 Q4
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,68,2021 Q1
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,92,2021 Q2
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,95,2021 Q3
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,87,2021 Q4
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,80,2022 Q1
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,103,2022 Q2
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,95,2022 Q3
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,97,2022 Q4
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,78,2023 Q1
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,63,2023 Q2
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,59,2023 Q3
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,60,2023 Q4
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,61,2024 Q1
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,83,2024 Q2
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,37,2024 Q3
+Angola,TB_STAT_POS,TB cases with a documented HIV positive status,68,2024 Q4
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,968,2020 Q1
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1283,2020 Q2
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,975,2020 Q3
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1134,2020 Q4
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1038,2021 Q1
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1274,2021 Q2
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1443,2021 Q3
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1320,2021 Q4
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1200,2022 Q1
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1259,2022 Q2
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1381,2022 Q3
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1127,2022 Q4
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1174,2023 Q1
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1241,2023 Q2
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1159,2023 Q3
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1085,2023 Q4
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1185,2024 Q1
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1267,2024 Q2
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1280,2024 Q3
+Angola,TX_NEW,People newly enrolled on antiretroviral therapy,1180,2024 Q4
+Botswana,HTS_TST,Individuals tested for HIV and received their results,30704,2020 Q1
+Botswana,HTS_TST,Individuals tested for HIV and received their results,29643,2020 Q2
+Botswana,HTS_TST,Individuals tested for HIV and received their results,16039,2020 Q3
+Botswana,HTS_TST,Individuals tested for HIV and received their results,17882,2020 Q4
+Botswana,HTS_TST,Individuals tested for HIV and received their results,12922,2021 Q1
+Botswana,HTS_TST,Individuals tested for HIV and received their results,18178,2021 Q2
+Botswana,HTS_TST,Individuals tested for HIV and received their results,16975,2021 Q3
+Botswana,HTS_TST,Individuals tested for HIV and received their results,18542,2021 Q4
+Botswana,HTS_TST,Individuals tested for HIV and received their results,17723,2022 Q1
+Botswana,HTS_TST,Individuals tested for HIV and received their results,24855,2022 Q2
+Botswana,HTS_TST,Individuals tested for HIV and received their results,25917,2022 Q3
+Botswana,HTS_TST,Individuals tested for HIV and received their results,23674,2022 Q4
+Botswana,HTS_TST,Individuals tested for HIV and received their results,46893,2023 Q1
+Botswana,HTS_TST,Individuals tested for HIV and received their results,52311,2023 Q2
+Botswana,HTS_TST,Individuals tested for HIV and received their results,44426,2023 Q3
+Botswana,HTS_TST,Individuals tested for HIV and received their results,48669,2023 Q4
+Botswana,HTS_TST,Individuals tested for HIV and received their results,55357,2024 Q1
+Botswana,HTS_TST,Individuals tested for HIV and received their results,59442,2024 Q2
+Botswana,HTS_TST,Individuals tested for HIV and received their results,61832,2024 Q3
+Botswana,HTS_TST,Individuals tested for HIV and received their results,61501,2024 Q4
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1911,2020 Q1
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,2065,2020 Q2
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1179,2020 Q3
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1366,2020 Q4
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1116,2021 Q1
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1721,2021 Q2
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1434,2021 Q3
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1562,2021 Q4
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1515,2022 Q1
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1595,2022 Q2
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1534,2022 Q3
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1587,2022 Q4
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1936,2023 Q1
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,2367,2023 Q2
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1770,2023 Q3
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1945,2023 Q4
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1753,2024 Q1
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1760,2024 Q2
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1471,2024 Q3
+Botswana,HTS_TST_POS,Individuals newly tested positive for HIV,1572,2024 Q4
+Botswana,TB_STAT_D,TB cases with documented HIV status,459,2020 Q1
+Botswana,TB_STAT_D,TB cases with documented HIV status,399,2020 Q2
+Botswana,TB_STAT_D,TB cases with documented HIV status,214,2020 Q3
+Botswana,TB_STAT_D,TB cases with documented HIV status,150,2020 Q4
+Botswana,TB_STAT_D,TB cases with documented HIV status,161,2021 Q1
+Botswana,TB_STAT_D,TB cases with documented HIV status,249,2021 Q2
+Botswana,TB_STAT_D,TB cases with documented HIV status,274,2021 Q3
+Botswana,TB_STAT_D,TB cases with documented HIV status,537,2021 Q4
+Botswana,TB_STAT_D,TB cases with documented HIV status,313,2022 Q1
+Botswana,TB_STAT_D,TB cases with documented HIV status,376,2022 Q2
+Botswana,TB_STAT_D,TB cases with documented HIV status,365,2022 Q3
+Botswana,TB_STAT_D,TB cases with documented HIV status,457,2022 Q4
+Botswana,TB_STAT_D,TB cases with documented HIV status,411,2023 Q1
+Botswana,TB_STAT_D,TB cases with documented HIV status,424,2023 Q2
+Botswana,TB_STAT_D,TB cases with documented HIV status,343,2023 Q3
+Botswana,TB_STAT_D,TB cases with documented HIV status,382,2023 Q4
+Botswana,TB_STAT_D,TB cases with documented HIV status,448,2024 Q1
+Botswana,TB_STAT_D,TB cases with documented HIV status,429,2024 Q2
+Botswana,TB_STAT_D,TB cases with documented HIV status,385,2024 Q3
+Botswana,TB_STAT_D,TB cases with documented HIV status,374,2024 Q4
+Botswana,TB_STAT_N,TB cases with documented HIV status,355,2020 Q1
+Botswana,TB_STAT_N,TB cases with documented HIV status,307,2020 Q2
+Botswana,TB_STAT_N,TB cases with documented HIV status,156,2020 Q3
+Botswana,TB_STAT_N,TB cases with documented HIV status,113,2020 Q4
+Botswana,TB_STAT_N,TB cases with documented HIV status,154,2021 Q1
+Botswana,TB_STAT_N,TB cases with documented HIV status,232,2021 Q2
+Botswana,TB_STAT_N,TB cases with documented HIV status,242,2021 Q3
+Botswana,TB_STAT_N,TB cases with documented HIV status,498,2021 Q4
+Botswana,TB_STAT_N,TB cases with documented HIV status,295,2022 Q1
+Botswana,TB_STAT_N,TB cases with documented HIV status,346,2022 Q2
+Botswana,TB_STAT_N,TB cases with documented HIV status,315,2022 Q3
+Botswana,TB_STAT_N,TB cases with documented HIV status,425,2022 Q4
+Botswana,TB_STAT_N,TB cases with documented HIV status,363,2023 Q1
+Botswana,TB_STAT_N,TB cases with documented HIV status,371,2023 Q2
+Botswana,TB_STAT_N,TB cases with documented HIV status,309,2023 Q3
+Botswana,TB_STAT_N,TB cases with documented HIV status,346,2023 Q4
+Botswana,TB_STAT_N,TB cases with documented HIV status,429,2024 Q1
+Botswana,TB_STAT_N,TB cases with documented HIV status,415,2024 Q2
+Botswana,TB_STAT_N,TB cases with documented HIV status,380,2024 Q3
+Botswana,TB_STAT_N,TB cases with documented HIV status,365,2024 Q4
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,260,2020 Q1
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,198,2020 Q2
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,109,2020 Q3
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,77,2020 Q4
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,89,2021 Q1
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,121,2021 Q2
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,134,2021 Q3
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,307,2021 Q4
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,168,2022 Q1
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,195,2022 Q2
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,206,2022 Q3
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,226,2022 Q4
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,229,2023 Q1
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,226,2023 Q2
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,202,2023 Q3
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,201,2023 Q4
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,176,2024 Q1
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,234,2024 Q2
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,210,2024 Q3
+Botswana,TB_STAT_POS,TB cases with a documented HIV positive status,195,2024 Q4
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,2012,2020 Q1
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,2666,2020 Q2
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1504,2020 Q3
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1599,2020 Q4
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1605,2021 Q1
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1848,2021 Q2
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1747,2021 Q3
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1589,2021 Q4
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1651,2022 Q1
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1910,2022 Q2
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1654,2022 Q3
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1345,2022 Q4
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1495,2023 Q1
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1694,2023 Q2
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1524,2023 Q3
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1346,2023 Q4
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1424,2024 Q1
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1545,2024 Q2
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1257,2024 Q3
+Botswana,TX_NEW,People newly enrolled on antiretroviral therapy,1317,2024 Q4
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,207224,2020 Q1
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,226888,2020 Q2
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,214975,2020 Q3
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,222195,2020 Q4
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,224607,2021 Q1
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,243029,2021 Q2
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,242151,2021 Q3
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,232666,2021 Q4
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,232813,2022 Q1
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,241958,2022 Q2
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,247774,2022 Q3
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,241462,2022 Q4
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,236585,2023 Q1
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,180514,2023 Q2
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,232474,2023 Q3
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,238105,2023 Q4
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,236613,2024 Q1
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,231197,2024 Q2
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,217155,2024 Q3
+Democratic Republic of the Congo,HTS_TST,Individuals tested for HIV and received their results,196124,2024 Q4
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,11979,2020 Q1
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,13233,2020 Q2
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,12227,2020 Q3
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,13235,2020 Q4
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,14079,2021 Q1
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,14797,2021 Q2
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,15036,2021 Q3
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,14245,2021 Q4
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,15027,2022 Q1
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,14469,2022 Q2
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,16032,2022 Q3
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,15463,2022 Q4
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,13963,2023 Q1
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,9842,2023 Q2
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,11425,2023 Q3
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,11177,2023 Q4
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,8777,2024 Q1
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,7796,2024 Q2
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,7220,2024 Q3
+Democratic Republic of the Congo,HTS_TST_POS,Individuals newly tested positive for HIV,6115,2024 Q4
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,6734,2020 Q1
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,7123,2020 Q2
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,6656,2020 Q3
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,7512,2020 Q4
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,7102,2021 Q1
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,7512,2021 Q2
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,7710,2021 Q3
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,7046,2021 Q4
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,7971,2022 Q1
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,9184,2022 Q2
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,8708,2022 Q3
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,9123,2022 Q4
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,9563,2023 Q1
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,7505,2023 Q2
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,10651,2023 Q3
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,9742,2023 Q4
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,8850,2024 Q1
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,10844,2024 Q2
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,10205,2024 Q3
+Democratic Republic of the Congo,TB_STAT_D,TB cases with documented HIV status,10025,2024 Q4
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,6542,2020 Q1
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,7069,2020 Q2
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,6578,2020 Q3
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,7504,2020 Q4
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,7042,2021 Q1
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,7477,2021 Q2
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,7699,2021 Q3
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,6974,2021 Q4
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,7705,2022 Q1
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,8973,2022 Q2
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,8640,2022 Q3
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,9086,2022 Q4
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,8947,2023 Q1
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,7341,2023 Q2
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,10381,2023 Q3
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,9434,2023 Q4
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,8768,2024 Q1
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,10236,2024 Q2
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,9817,2024 Q3
+Democratic Republic of the Congo,TB_STAT_N,TB cases with documented HIV status,9719,2024 Q4
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,573,2020 Q1
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,652,2020 Q2
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,512,2020 Q3
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,670,2020 Q4
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,623,2021 Q1
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,728,2021 Q2
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,838,2021 Q3
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,740,2021 Q4
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,723,2022 Q1
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,804,2022 Q2
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,729,2022 Q3
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,800,2022 Q4
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,742,2023 Q1
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,529,2023 Q2
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,759,2023 Q3
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,721,2023 Q4
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,675,2024 Q1
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,772,2024 Q2
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,805,2024 Q3
+Democratic Republic of the Congo,TB_STAT_POS,TB cases with a documented HIV positive status,726,2024 Q4
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,11466,2020 Q1
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,12735,2020 Q2
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,11981,2020 Q3
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,12849,2020 Q4
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,13551,2021 Q1
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,14327,2021 Q2
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,14620,2021 Q3
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,13726,2021 Q4
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,14687,2022 Q1
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,14155,2022 Q2
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,16091,2022 Q3
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,15245,2022 Q4
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,13711,2023 Q1
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,8830,2023 Q2
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,10879,2023 Q3
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,10934,2023 Q4
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,8502,2024 Q1
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,7512,2024 Q2
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,7019,2024 Q3
+Democratic Republic of the Congo,TX_NEW,People newly enrolled on antiretroviral therapy,5926,2024 Q4
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,71517,2020 Q1
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,83246,2020 Q2
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,52351,2020 Q3
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,83703,2020 Q4
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,66382,2021 Q1
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,49296,2021 Q2
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,48434,2021 Q3
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,62541,2021 Q4
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,40912,2022 Q1
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,49658,2022 Q2
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,51806,2022 Q3
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,52855,2022 Q4
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,42965,2023 Q1
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,52032,2023 Q2
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,42213,2023 Q3
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,45762,2023 Q4
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,58890,2024 Q1
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,55922,2024 Q2
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,57553,2024 Q3
+Eswatini,HTS_TST,Individuals tested for HIV and received their results,42806,2024 Q4
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,4766,2020 Q1
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,4879,2020 Q2
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2760,2020 Q3
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,4708,2020 Q4
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,3593,2021 Q1
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2851,2021 Q2
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2565,2021 Q3
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2917,2021 Q4
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2041,2022 Q1
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2334,2022 Q2
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2076,2022 Q3
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2211,2022 Q4
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,1674,2023 Q1
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,2026,2023 Q2
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,1675,2023 Q3
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,1472,2023 Q4
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,1409,2024 Q1
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,1604,2024 Q2
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,1519,2024 Q3
+Eswatini,HTS_TST_POS,Individuals newly tested positive for HIV,1562,2024 Q4
+Eswatini,TB_STAT_D,TB cases with documented HIV status,549,2020 Q1
+Eswatini,TB_STAT_D,TB cases with documented HIV status,516,2020 Q2
+Eswatini,TB_STAT_D,TB cases with documented HIV status,382,2020 Q3
+Eswatini,TB_STAT_D,TB cases with documented HIV status,419,2020 Q4
+Eswatini,TB_STAT_D,TB cases with documented HIV status,484,2021 Q1
+Eswatini,TB_STAT_D,TB cases with documented HIV status,390,2021 Q2
+Eswatini,TB_STAT_D,TB cases with documented HIV status,413,2021 Q3
+Eswatini,TB_STAT_D,TB cases with documented HIV status,427,2021 Q4
+Eswatini,TB_STAT_D,TB cases with documented HIV status,382,2022 Q1
+Eswatini,TB_STAT_D,TB cases with documented HIV status,443,2022 Q2
+Eswatini,TB_STAT_D,TB cases with documented HIV status,479,2022 Q3
+Eswatini,TB_STAT_D,TB cases with documented HIV status,614,2022 Q4
+Eswatini,TB_STAT_D,TB cases with documented HIV status,474,2023 Q1
+Eswatini,TB_STAT_D,TB cases with documented HIV status,389,2023 Q2
+Eswatini,TB_STAT_D,TB cases with documented HIV status,393,2023 Q3
+Eswatini,TB_STAT_D,TB cases with documented HIV status,548,2023 Q4
+Eswatini,TB_STAT_D,TB cases with documented HIV status,547,2024 Q1
+Eswatini,TB_STAT_D,TB cases with documented HIV status,568,2024 Q2
+Eswatini,TB_STAT_D,TB cases with documented HIV status,468,2024 Q3
+Eswatini,TB_STAT_D,TB cases with documented HIV status,510,2024 Q4
+Eswatini,TB_STAT_N,TB cases with documented HIV status,569,2020 Q1
+Eswatini,TB_STAT_N,TB cases with documented HIV status,515,2020 Q2
+Eswatini,TB_STAT_N,TB cases with documented HIV status,382,2020 Q3
+Eswatini,TB_STAT_N,TB cases with documented HIV status,419,2020 Q4
+Eswatini,TB_STAT_N,TB cases with documented HIV status,483,2021 Q1
+Eswatini,TB_STAT_N,TB cases with documented HIV status,390,2021 Q2
+Eswatini,TB_STAT_N,TB cases with documented HIV status,413,2021 Q3
+Eswatini,TB_STAT_N,TB cases with documented HIV status,426,2021 Q4
+Eswatini,TB_STAT_N,TB cases with documented HIV status,382,2022 Q1
+Eswatini,TB_STAT_N,TB cases with documented HIV status,443,2022 Q2
+Eswatini,TB_STAT_N,TB cases with documented HIV status,478,2022 Q3
+Eswatini,TB_STAT_N,TB cases with documented HIV status,614,2022 Q4
+Eswatini,TB_STAT_N,TB cases with documented HIV status,474,2023 Q1
+Eswatini,TB_STAT_N,TB cases with documented HIV status,389,2023 Q2
+Eswatini,TB_STAT_N,TB cases with documented HIV status,393,2023 Q3
+Eswatini,TB_STAT_N,TB cases with documented HIV status,548,2023 Q4
+Eswatini,TB_STAT_N,TB cases with documented HIV status,547,2024 Q1
+Eswatini,TB_STAT_N,TB cases with documented HIV status,568,2024 Q2
+Eswatini,TB_STAT_N,TB cases with documented HIV status,467,2024 Q3
+Eswatini,TB_STAT_N,TB cases with documented HIV status,419,2024 Q4
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,344,2020 Q1
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,318,2020 Q2
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,237,2020 Q3
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,299,2020 Q4
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,324,2021 Q1
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,262,2021 Q2
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,266,2021 Q3
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,283,2021 Q4
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,254,2022 Q1
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,276,2022 Q2
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,327,2022 Q3
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,393,2022 Q4
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,297,2023 Q1
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,249,2023 Q2
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,253,2023 Q3
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,366,2023 Q4
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,389,2024 Q1
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,336,2024 Q2
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,294,2024 Q3
+Eswatini,TB_STAT_POS,TB cases with a documented HIV positive status,295,2024 Q4
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,4035,2020 Q1
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,4346,2020 Q2
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2560,2020 Q3
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,4009,2020 Q4
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2718,2021 Q1
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2399,2021 Q2
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2078,2021 Q3
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2547,2021 Q4
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2094,2022 Q1
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2719,2022 Q2
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2220,2022 Q3
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,1989,2022 Q4
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,1911,2023 Q1
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2140,2023 Q2
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,1857,2023 Q3
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,2039,2023 Q4
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,1488,2024 Q1
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,1629,2024 Q2
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,1522,2024 Q3
+Eswatini,TX_NEW,People newly enrolled on antiretroviral therapy,1540,2024 Q4
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,192419,2020 Q1
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,170008,2020 Q2
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,59886,2020 Q3
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,45853,2020 Q4
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,54657,2021 Q1
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,48500,2021 Q2
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,48288,2021 Q3
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,43018,2021 Q4
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,33945,2022 Q1
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,35822,2022 Q2
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,34789,2022 Q3
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,35004,2022 Q4
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,34907,2023 Q1
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,42192,2023 Q2
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,38403,2023 Q3
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,35432,2023 Q4
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,33653,2024 Q1
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,37597,2024 Q2
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,37196,2024 Q3
+Lesotho,HTS_TST,Individuals tested for HIV and received their results,39180,2024 Q4
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,6338,2020 Q1
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,6458,2020 Q2
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2750,2020 Q3
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2407,2020 Q4
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,3392,2021 Q1
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,3430,2021 Q2
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,3154,2021 Q3
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,3033,2021 Q4
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2904,2022 Q1
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,3171,2022 Q2
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2916,2022 Q3
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2967,2022 Q4
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2833,2023 Q1
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,3397,2023 Q2
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2609,2023 Q3
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2479,2023 Q4
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2547,2024 Q1
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,3208,2024 Q2
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2496,2024 Q3
+Lesotho,HTS_TST_POS,Individuals newly tested positive for HIV,2376,2024 Q4
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1728,2020 Q1
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1435,2020 Q2
+Lesotho,TB_STAT_D,TB cases with documented HIV status,841,2020 Q3
+Lesotho,TB_STAT_D,TB cases with documented HIV status,814,2020 Q4
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1200,2021 Q1
+Lesotho,TB_STAT_D,TB cases with documented HIV status,933,2021 Q2
+Lesotho,TB_STAT_D,TB cases with documented HIV status,994,2021 Q3
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1200,2021 Q4
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1185,2022 Q1
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1257,2022 Q2
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1158,2022 Q3
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1529,2022 Q4
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1515,2023 Q1
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1381,2023 Q2
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1377,2023 Q3
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1925,2023 Q4
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1691,2024 Q1
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1574,2024 Q2
+Lesotho,TB_STAT_D,TB cases with documented HIV status,2215,2024 Q3
+Lesotho,TB_STAT_D,TB cases with documented HIV status,1437,2024 Q4
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1262,2020 Q1
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1159,2020 Q2
+Lesotho,TB_STAT_N,TB cases with documented HIV status,621,2020 Q3
+Lesotho,TB_STAT_N,TB cases with documented HIV status,631,2020 Q4
+Lesotho,TB_STAT_N,TB cases with documented HIV status,899,2021 Q1
+Lesotho,TB_STAT_N,TB cases with documented HIV status,733,2021 Q2
+Lesotho,TB_STAT_N,TB cases with documented HIV status,768,2021 Q3
+Lesotho,TB_STAT_N,TB cases with documented HIV status,951,2021 Q4
+Lesotho,TB_STAT_N,TB cases with documented HIV status,905,2022 Q1
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1014,2022 Q2
+Lesotho,TB_STAT_N,TB cases with documented HIV status,955,2022 Q3
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1238,2022 Q4
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1298,2023 Q1
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1176,2023 Q2
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1092,2023 Q3
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1522,2023 Q4
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1687,2024 Q1
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1568,2024 Q2
+Lesotho,TB_STAT_N,TB cases with documented HIV status,2177,2024 Q3
+Lesotho,TB_STAT_N,TB cases with documented HIV status,1419,2024 Q4
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,1007,2020 Q1
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,875,2020 Q2
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,490,2020 Q3
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,441,2020 Q4
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,661,2021 Q1
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,516,2021 Q2
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,548,2021 Q3
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,661,2021 Q4
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,638,2022 Q1
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,680,2022 Q2
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,627,2022 Q3
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,828,2022 Q4
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,850,2023 Q1
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,724,2023 Q2
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,690,2023 Q3
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,902,2023 Q4
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,819,2024 Q1
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,774,2024 Q2
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,944,2024 Q3
+Lesotho,TB_STAT_POS,TB cases with a documented HIV positive status,739,2024 Q4
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,6059,2020 Q1
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,6544,2020 Q2
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3287,2020 Q3
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,2838,2020 Q4
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3721,2021 Q1
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3803,2021 Q2
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3445,2021 Q3
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3435,2021 Q4
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3058,2022 Q1
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3476,2022 Q2
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3150,2022 Q3
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3353,2022 Q4
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3188,2023 Q1
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3727,2023 Q2
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,2901,2023 Q3
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,2731,2023 Q4
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,2755,2024 Q1
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,3430,2024 Q2
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,2692,2024 Q3
+Lesotho,TX_NEW,People newly enrolled on antiretroviral therapy,2502,2024 Q4
+Malawi,HTS_TST,Individuals tested for HIV and received their results,930110,2020 Q1
+Malawi,HTS_TST,Individuals tested for HIV and received their results,960198,2020 Q2
+Malawi,HTS_TST,Individuals tested for HIV and received their results,613140,2020 Q3
+Malawi,HTS_TST,Individuals tested for HIV and received their results,670398,2020 Q4
+Malawi,HTS_TST,Individuals tested for HIV and received their results,770351,2021 Q1
+Malawi,HTS_TST,Individuals tested for HIV and received their results,686962,2021 Q2
+Malawi,HTS_TST,Individuals tested for HIV and received their results,668143,2021 Q3
+Malawi,HTS_TST,Individuals tested for HIV and received their results,644653,2021 Q4
+Malawi,HTS_TST,Individuals tested for HIV and received their results,685249,2022 Q1
+Malawi,HTS_TST,Individuals tested for HIV and received their results,711647,2022 Q2
+Malawi,HTS_TST,Individuals tested for HIV and received their results,724241,2022 Q3
+Malawi,HTS_TST,Individuals tested for HIV and received their results,766330,2022 Q4
+Malawi,HTS_TST,Individuals tested for HIV and received their results,740142,2023 Q1
+Malawi,HTS_TST,Individuals tested for HIV and received their results,804130,2023 Q2
+Malawi,HTS_TST,Individuals tested for HIV and received their results,832016,2023 Q3
+Malawi,HTS_TST,Individuals tested for HIV and received their results,851807,2023 Q4
+Malawi,HTS_TST,Individuals tested for HIV and received their results,895373,2024 Q1
+Malawi,HTS_TST,Individuals tested for HIV and received their results,1045998,2024 Q2
+Malawi,HTS_TST,Individuals tested for HIV and received their results,1004841,2024 Q3
+Malawi,HTS_TST,Individuals tested for HIV and received their results,1039591,2024 Q4
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,29132,2020 Q1
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,32383,2020 Q2
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,19626,2020 Q3
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,21551,2020 Q4
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,24196,2021 Q1
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,22146,2021 Q2
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,21187,2021 Q3
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,20250,2021 Q4
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,21761,2022 Q1
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,22710,2022 Q2
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,19900,2022 Q3
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,19295,2022 Q4
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,17940,2023 Q1
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,18702,2023 Q2
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,17995,2023 Q3
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,17084,2023 Q4
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,17108,2024 Q1
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,18055,2024 Q2
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,16415,2024 Q3
+Malawi,HTS_TST_POS,Individuals newly tested positive for HIV,15349,2024 Q4
+Malawi,TB_STAT_D,TB cases with documented HIV status,3832,2020 Q1
+Malawi,TB_STAT_D,TB cases with documented HIV status,4176,2020 Q2
+Malawi,TB_STAT_D,TB cases with documented HIV status,3461,2020 Q3
+Malawi,TB_STAT_D,TB cases with documented HIV status,3519,2020 Q4
+Malawi,TB_STAT_D,TB cases with documented HIV status,3928,2021 Q1
+Malawi,TB_STAT_D,TB cases with documented HIV status,3329,2021 Q2
+Malawi,TB_STAT_D,TB cases with documented HIV status,3734,2021 Q3
+Malawi,TB_STAT_D,TB cases with documented HIV status,3428,2021 Q4
+Malawi,TB_STAT_D,TB cases with documented HIV status,3537,2022 Q1
+Malawi,TB_STAT_D,TB cases with documented HIV status,4436,2022 Q2
+Malawi,TB_STAT_D,TB cases with documented HIV status,4425,2022 Q3
+Malawi,TB_STAT_D,TB cases with documented HIV status,4867,2022 Q4
+Malawi,TB_STAT_D,TB cases with documented HIV status,4405,2023 Q1
+Malawi,TB_STAT_D,TB cases with documented HIV status,4720,2023 Q2
+Malawi,TB_STAT_D,TB cases with documented HIV status,4975,2023 Q3
+Malawi,TB_STAT_D,TB cases with documented HIV status,5114,2023 Q4
+Malawi,TB_STAT_D,TB cases with documented HIV status,4300,2024 Q1
+Malawi,TB_STAT_D,TB cases with documented HIV status,4789,2024 Q2
+Malawi,TB_STAT_D,TB cases with documented HIV status,4051,2024 Q3
+Malawi,TB_STAT_D,TB cases with documented HIV status,4781,2024 Q4
+Malawi,TB_STAT_N,TB cases with documented HIV status,3832,2020 Q1
+Malawi,TB_STAT_N,TB cases with documented HIV status,4163,2020 Q2
+Malawi,TB_STAT_N,TB cases with documented HIV status,3458,2020 Q3
+Malawi,TB_STAT_N,TB cases with documented HIV status,3513,2020 Q4
+Malawi,TB_STAT_N,TB cases with documented HIV status,3916,2021 Q1
+Malawi,TB_STAT_N,TB cases with documented HIV status,3318,2021 Q2
+Malawi,TB_STAT_N,TB cases with documented HIV status,3728,2021 Q3
+Malawi,TB_STAT_N,TB cases with documented HIV status,3421,2021 Q4
+Malawi,TB_STAT_N,TB cases with documented HIV status,3543,2022 Q1
+Malawi,TB_STAT_N,TB cases with documented HIV status,4422,2022 Q2
+Malawi,TB_STAT_N,TB cases with documented HIV status,4422,2022 Q3
+Malawi,TB_STAT_N,TB cases with documented HIV status,4873,2022 Q4
+Malawi,TB_STAT_N,TB cases with documented HIV status,4379,2023 Q1
+Malawi,TB_STAT_N,TB cases with documented HIV status,4687,2023 Q2
+Malawi,TB_STAT_N,TB cases with documented HIV status,4950,2023 Q3
+Malawi,TB_STAT_N,TB cases with documented HIV status,5086,2023 Q4
+Malawi,TB_STAT_N,TB cases with documented HIV status,4254,2024 Q1
+Malawi,TB_STAT_N,TB cases with documented HIV status,4673,2024 Q2
+Malawi,TB_STAT_N,TB cases with documented HIV status,4012,2024 Q3
+Malawi,TB_STAT_N,TB cases with documented HIV status,4744,2024 Q4
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1794,2020 Q1
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1976,2020 Q2
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1462,2020 Q3
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1434,2020 Q4
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1785,2021 Q1
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1475,2021 Q2
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1677,2021 Q3
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1539,2021 Q4
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1596,2022 Q1
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,2058,2022 Q2
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,2185,2022 Q3
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,2370,2022 Q4
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,2171,2023 Q1
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,2307,2023 Q2
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,2285,2023 Q3
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,2330,2023 Q4
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1989,2024 Q1
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,2221,2024 Q2
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1666,2024 Q3
+Malawi,TB_STAT_POS,TB cases with a documented HIV positive status,1901,2024 Q4
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,25683,2020 Q1
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,27716,2020 Q2
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,18140,2020 Q3
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,19350,2020 Q4
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,21347,2021 Q1
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,19560,2021 Q2
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,19271,2021 Q3
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,18373,2021 Q4
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,19682,2022 Q1
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,19453,2022 Q2
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,18211,2022 Q3
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,18123,2022 Q4
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,16442,2023 Q1
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,16917,2023 Q2
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,16574,2023 Q3
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,16088,2023 Q4
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,16221,2024 Q1
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,17261,2024 Q2
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,15395,2024 Q3
+Malawi,TX_NEW,People newly enrolled on antiretroviral therapy,15273,2024 Q4
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,1593300,2020 Q1
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,1696534,2020 Q2
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,1421474,2020 Q3
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,1622334,2020 Q4
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,1787522,2021 Q1
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,1898756,2021 Q2
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2024897,2021 Q3
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2152304,2021 Q4
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2200758,2022 Q1
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2287085,2022 Q2
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2416868,2022 Q3
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2438268,2022 Q4
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2334087,2023 Q1
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2387302,2023 Q2
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2592079,2023 Q3
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2584112,2023 Q4
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2529843,2024 Q1
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2555720,2024 Q2
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2615548,2024 Q3
+Mozambique,HTS_TST,Individuals tested for HIV and received their results,2791077,2024 Q4
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,75206,2020 Q1
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,81351,2020 Q2
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,61484,2020 Q3
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,67190,2020 Q4
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,73946,2021 Q1
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,79656,2021 Q2
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,80599,2021 Q3
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,80074,2021 Q4
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,79518,2022 Q1
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,80838,2022 Q2
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,83103,2022 Q3
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,80706,2022 Q4
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,76061,2023 Q1
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,75432,2023 Q2
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,76534,2023 Q3
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,71824,2023 Q4
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,67818,2024 Q1
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,69489,2024 Q2
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,67104,2024 Q3
+Mozambique,HTS_TST_POS,Individuals newly tested positive for HIV,67097,2024 Q4
+Mozambique,TB_STAT_D,TB cases with documented HIV status,18460,2020 Q1
+Mozambique,TB_STAT_D,TB cases with documented HIV status,19982,2020 Q2
+Mozambique,TB_STAT_D,TB cases with documented HIV status,17411,2020 Q3
+Mozambique,TB_STAT_D,TB cases with documented HIV status,18841,2020 Q4
+Mozambique,TB_STAT_D,TB cases with documented HIV status,19222,2021 Q1
+Mozambique,TB_STAT_D,TB cases with documented HIV status,16454,2021 Q2
+Mozambique,TB_STAT_D,TB cases with documented HIV status,18402,2021 Q3
+Mozambique,TB_STAT_D,TB cases with documented HIV status,19776,2021 Q4
+Mozambique,TB_STAT_D,TB cases with documented HIV status,19887,2022 Q1
+Mozambique,TB_STAT_D,TB cases with documented HIV status,19040,2022 Q2
+Mozambique,TB_STAT_D,TB cases with documented HIV status,21823,2022 Q3
+Mozambique,TB_STAT_D,TB cases with documented HIV status,22768,2022 Q4
+Mozambique,TB_STAT_D,TB cases with documented HIV status,21037,2023 Q1
+Mozambique,TB_STAT_D,TB cases with documented HIV status,18841,2023 Q2
+Mozambique,TB_STAT_D,TB cases with documented HIV status,23087,2023 Q3
+Mozambique,TB_STAT_D,TB cases with documented HIV status,23106,2023 Q4
+Mozambique,TB_STAT_D,TB cases with documented HIV status,21569,2024 Q1
+Mozambique,TB_STAT_D,TB cases with documented HIV status,18917,2024 Q2
+Mozambique,TB_STAT_D,TB cases with documented HIV status,20492,2024 Q3
+Mozambique,TB_STAT_D,TB cases with documented HIV status,21217,2024 Q4
+Mozambique,TB_STAT_N,TB cases with documented HIV status,18360,2020 Q1
+Mozambique,TB_STAT_N,TB cases with documented HIV status,19878,2020 Q2
+Mozambique,TB_STAT_N,TB cases with documented HIV status,17361,2020 Q3
+Mozambique,TB_STAT_N,TB cases with documented HIV status,18787,2020 Q4
+Mozambique,TB_STAT_N,TB cases with documented HIV status,19125,2021 Q1
+Mozambique,TB_STAT_N,TB cases with documented HIV status,16394,2021 Q2
+Mozambique,TB_STAT_N,TB cases with documented HIV status,18365,2021 Q3
+Mozambique,TB_STAT_N,TB cases with documented HIV status,19691,2021 Q4
+Mozambique,TB_STAT_N,TB cases with documented HIV status,19826,2022 Q1
+Mozambique,TB_STAT_N,TB cases with documented HIV status,18982,2022 Q2
+Mozambique,TB_STAT_N,TB cases with documented HIV status,21763,2022 Q3
+Mozambique,TB_STAT_N,TB cases with documented HIV status,22660,2022 Q4
+Mozambique,TB_STAT_N,TB cases with documented HIV status,20935,2023 Q1
+Mozambique,TB_STAT_N,TB cases with documented HIV status,18807,2023 Q2
+Mozambique,TB_STAT_N,TB cases with documented HIV status,23018,2023 Q3
+Mozambique,TB_STAT_N,TB cases with documented HIV status,23057,2023 Q4
+Mozambique,TB_STAT_N,TB cases with documented HIV status,21480,2024 Q1
+Mozambique,TB_STAT_N,TB cases with documented HIV status,18864,2024 Q2
+Mozambique,TB_STAT_N,TB cases with documented HIV status,21364,2024 Q3
+Mozambique,TB_STAT_N,TB cases with documented HIV status,21119,2024 Q4
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,7080,2020 Q1
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,7392,2020 Q2
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5610,2020 Q3
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5555,2020 Q4
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5973,2021 Q1
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,4933,2021 Q2
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5699,2021 Q3
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5772,2021 Q4
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5863,2022 Q1
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5753,2022 Q2
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,6804,2022 Q3
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,6936,2022 Q4
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,6000,2023 Q1
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5251,2023 Q2
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,6738,2023 Q3
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,6492,2023 Q4
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5784,2024 Q1
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5430,2024 Q2
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,5730,2024 Q3
+Mozambique,TB_STAT_POS,TB cases with a documented HIV positive status,6004,2024 Q4
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,64387,2020 Q1
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,73520,2020 Q2
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,59300,2020 Q3
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,64314,2020 Q4
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,70047,2021 Q1
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,74904,2021 Q2
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,75602,2021 Q3
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,75812,2021 Q4
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,75927,2022 Q1
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,77417,2022 Q2
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,79466,2022 Q3
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,78984,2022 Q4
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,72839,2023 Q1
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,72968,2023 Q2
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,74006,2023 Q3
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,68647,2023 Q4
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,65515,2024 Q1
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,67852,2024 Q2
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,66172,2024 Q3
+Mozambique,TX_NEW,People newly enrolled on antiretroviral therapy,66006,2024 Q4
+Namibia,HTS_TST,Individuals tested for HIV and received their results,81930,2020 Q1
+Namibia,HTS_TST,Individuals tested for HIV and received their results,92713,2020 Q2
+Namibia,HTS_TST,Individuals tested for HIV and received their results,85883,2020 Q3
+Namibia,HTS_TST,Individuals tested for HIV and received their results,89173,2020 Q4
+Namibia,HTS_TST,Individuals tested for HIV and received their results,82616,2021 Q1
+Namibia,HTS_TST,Individuals tested for HIV and received their results,88302,2021 Q2
+Namibia,HTS_TST,Individuals tested for HIV and received their results,90030,2021 Q3
+Namibia,HTS_TST,Individuals tested for HIV and received their results,83510,2021 Q4
+Namibia,HTS_TST,Individuals tested for HIV and received their results,78367,2022 Q1
+Namibia,HTS_TST,Individuals tested for HIV and received their results,89845,2022 Q2
+Namibia,HTS_TST,Individuals tested for HIV and received their results,104098,2022 Q3
+Namibia,HTS_TST,Individuals tested for HIV and received their results,117138,2022 Q4
+Namibia,HTS_TST,Individuals tested for HIV and received their results,84620,2023 Q1
+Namibia,HTS_TST,Individuals tested for HIV and received their results,94072,2023 Q2
+Namibia,HTS_TST,Individuals tested for HIV and received their results,88908,2023 Q3
+Namibia,HTS_TST,Individuals tested for HIV and received their results,105858,2023 Q4
+Namibia,HTS_TST,Individuals tested for HIV and received their results,34803,2024 Q1
+Namibia,HTS_TST,Individuals tested for HIV and received their results,41909,2024 Q2
+Namibia,HTS_TST,Individuals tested for HIV and received their results,43945,2024 Q3
+Namibia,HTS_TST,Individuals tested for HIV and received their results,45731,2024 Q4
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3690,2020 Q1
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3146,2020 Q2
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3102,2020 Q3
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3203,2020 Q4
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3263,2021 Q1
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3237,2021 Q2
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3108,2021 Q3
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3136,2021 Q4
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3023,2022 Q1
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3444,2022 Q2
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3049,2022 Q3
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,5015,2022 Q4
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3010,2023 Q1
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3510,2023 Q2
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3444,2023 Q3
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,3209,2023 Q4
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,1745,2024 Q1
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,1722,2024 Q2
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,1385,2024 Q3
+Namibia,HTS_TST_POS,Individuals newly tested positive for HIV,1370,2024 Q4
+Namibia,TB_STAT_D,TB cases with documented HIV status,2141,2020 Q1
+Namibia,TB_STAT_D,TB cases with documented HIV status,1928,2020 Q2
+Namibia,TB_STAT_D,TB cases with documented HIV status,1501,2020 Q3
+Namibia,TB_STAT_D,TB cases with documented HIV status,1384,2020 Q4
+Namibia,TB_STAT_D,TB cases with documented HIV status,1545,2021 Q1
+Namibia,TB_STAT_D,TB cases with documented HIV status,1522,2021 Q2
+Namibia,TB_STAT_D,TB cases with documented HIV status,1433,2021 Q3
+Namibia,TB_STAT_D,TB cases with documented HIV status,1603,2021 Q4
+Namibia,TB_STAT_D,TB cases with documented HIV status,1893,2022 Q1
+Namibia,TB_STAT_D,TB cases with documented HIV status,1974,2022 Q2
+Namibia,TB_STAT_D,TB cases with documented HIV status,1927,2022 Q3
+Namibia,TB_STAT_D,TB cases with documented HIV status,2207,2022 Q4
+Namibia,TB_STAT_D,TB cases with documented HIV status,2260,2023 Q1
+Namibia,TB_STAT_D,TB cases with documented HIV status,2152,2023 Q2
+Namibia,TB_STAT_D,TB cases with documented HIV status,2065,2023 Q3
+Namibia,TB_STAT_D,TB cases with documented HIV status,2267,2023 Q4
+Namibia,TB_STAT_D,TB cases with documented HIV status,2347,2024 Q1
+Namibia,TB_STAT_D,TB cases with documented HIV status,2179,2024 Q2
+Namibia,TB_STAT_D,TB cases with documented HIV status,1755,2024 Q3
+Namibia,TB_STAT_D,TB cases with documented HIV status,2255,2024 Q4
+Namibia,TB_STAT_N,TB cases with documented HIV status,2178,2020 Q1
+Namibia,TB_STAT_N,TB cases with documented HIV status,1909,2020 Q2
+Namibia,TB_STAT_N,TB cases with documented HIV status,1490,2020 Q3
+Namibia,TB_STAT_N,TB cases with documented HIV status,1367,2020 Q4
+Namibia,TB_STAT_N,TB cases with documented HIV status,1522,2021 Q1
+Namibia,TB_STAT_N,TB cases with documented HIV status,1503,2021 Q2
+Namibia,TB_STAT_N,TB cases with documented HIV status,1404,2021 Q3
+Namibia,TB_STAT_N,TB cases with documented HIV status,1756,2021 Q4
+Namibia,TB_STAT_N,TB cases with documented HIV status,1869,2022 Q1
+Namibia,TB_STAT_N,TB cases with documented HIV status,1942,2022 Q2
+Namibia,TB_STAT_N,TB cases with documented HIV status,1884,2022 Q3
+Namibia,TB_STAT_N,TB cases with documented HIV status,2366,2022 Q4
+Namibia,TB_STAT_N,TB cases with documented HIV status,2217,2023 Q1
+Namibia,TB_STAT_N,TB cases with documented HIV status,2095,2023 Q2
+Namibia,TB_STAT_N,TB cases with documented HIV status,1995,2023 Q3
+Namibia,TB_STAT_N,TB cases with documented HIV status,2226,2023 Q4
+Namibia,TB_STAT_N,TB cases with documented HIV status,2311,2024 Q1
+Namibia,TB_STAT_N,TB cases with documented HIV status,2619,2024 Q2
+Namibia,TB_STAT_N,TB cases with documented HIV status,1537,2024 Q3
+Namibia,TB_STAT_N,TB cases with documented HIV status,2251,2024 Q4
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,687,2020 Q1
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,569,2020 Q2
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,485,2020 Q3
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,405,2020 Q4
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,463,2021 Q1
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,450,2021 Q2
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,431,2021 Q3
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,571,2021 Q4
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,562,2022 Q1
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,700,2022 Q2
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,592,2022 Q3
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,696,2022 Q4
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,609,2023 Q1
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,597,2023 Q2
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,722,2023 Q3
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,739,2023 Q4
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,760,2024 Q1
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,1198,2024 Q2
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,495,2024 Q3
+Namibia,TB_STAT_POS,TB cases with a documented HIV positive status,574,2024 Q4
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,3157,2020 Q1
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,3296,2020 Q2
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2513,2020 Q3
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2635,2020 Q4
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2584,2021 Q1
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2663,2021 Q2
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2483,2021 Q3
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2349,2021 Q4
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2425,2022 Q1
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2650,2022 Q2
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2346,2022 Q3
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2319,2022 Q4
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2172,2023 Q1
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2539,2023 Q2
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2156,2023 Q3
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2346,2023 Q4
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2430,2024 Q1
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2525,2024 Q2
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2271,2024 Q3
+Namibia,TX_NEW,People newly enrolled on antiretroviral therapy,2492,2024 Q4
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3572386,2020 Q1
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3867056,2020 Q2
+South Africa,HTS_TST,Individuals tested for HIV and received their results,2222854,2020 Q3
+South Africa,HTS_TST,Individuals tested for HIV and received their results,5289515,2020 Q4
+South Africa,HTS_TST,Individuals tested for HIV and received their results,2894654,2021 Q1
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3124542,2021 Q2
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3277589,2021 Q3
+South Africa,HTS_TST,Individuals tested for HIV and received their results,6152368,2021 Q4
+South Africa,HTS_TST,Individuals tested for HIV and received their results,2846141,2022 Q1
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3138695,2022 Q2
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3198994,2022 Q3
+South Africa,HTS_TST,Individuals tested for HIV and received their results,6631326,2022 Q4
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3211234,2023 Q1
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3304339,2023 Q2
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3228796,2023 Q3
+South Africa,HTS_TST,Individuals tested for HIV and received their results,5197912,2023 Q4
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3219945,2024 Q1
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3377303,2024 Q2
+South Africa,HTS_TST,Individuals tested for HIV and received their results,3523393,2024 Q3
+South Africa,HTS_TST,Individuals tested for HIV and received their results,5478028,2024 Q4
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,170683,2020 Q1
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,182191,2020 Q2
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,101356,2020 Q3
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,258546,2020 Q4
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,110804,2021 Q1
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,121788,2021 Q2
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,112179,2021 Q3
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,222351,2021 Q4
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,92191,2022 Q1
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,107933,2022 Q2
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,91119,2022 Q3
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,206904,2022 Q4
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,88680,2023 Q1
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,94957,2023 Q2
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,79591,2023 Q3
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,152969,2023 Q4
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,76167,2024 Q1
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,85485,2024 Q2
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,73108,2024 Q3
+South Africa,HTS_TST_POS,Individuals newly tested positive for HIV,139069,2024 Q4
+South Africa,TB_STAT_D,TB cases with documented HIV status,40189,2020 Q1
+South Africa,TB_STAT_D,TB cases with documented HIV status,39580,2020 Q2
+South Africa,TB_STAT_D,TB cases with documented HIV status,22752,2020 Q3
+South Africa,TB_STAT_D,TB cases with documented HIV status,23605,2020 Q4
+South Africa,TB_STAT_D,TB cases with documented HIV status,31413,2021 Q1
+South Africa,TB_STAT_D,TB cases with documented HIV status,26339,2021 Q2
+South Africa,TB_STAT_D,TB cases with documented HIV status,29727,2021 Q3
+South Africa,TB_STAT_D,TB cases with documented HIV status,30135,2021 Q4
+South Africa,TB_STAT_D,TB cases with documented HIV status,35641,2022 Q1
+South Africa,TB_STAT_D,TB cases with documented HIV status,39469,2022 Q2
+South Africa,TB_STAT_D,TB cases with documented HIV status,35532,2022 Q3
+South Africa,TB_STAT_D,TB cases with documented HIV status,41066,2022 Q4
+South Africa,TB_STAT_D,TB cases with documented HIV status,40213,2023 Q1
+South Africa,TB_STAT_D,TB cases with documented HIV status,39622,2023 Q2
+South Africa,TB_STAT_D,TB cases with documented HIV status,36054,2023 Q3
+South Africa,TB_STAT_D,TB cases with documented HIV status,42440,2023 Q4
+South Africa,TB_STAT_D,TB cases with documented HIV status,41461,2024 Q1
+South Africa,TB_STAT_D,TB cases with documented HIV status,40094,2024 Q2
+South Africa,TB_STAT_D,TB cases with documented HIV status,30990,2024 Q3
+South Africa,TB_STAT_D,TB cases with documented HIV status,39186,2024 Q4
+South Africa,TB_STAT_N,TB cases with documented HIV status,36551,2020 Q1
+South Africa,TB_STAT_N,TB cases with documented HIV status,36709,2020 Q2
+South Africa,TB_STAT_N,TB cases with documented HIV status,19662,2020 Q3
+South Africa,TB_STAT_N,TB cases with documented HIV status,21079,2020 Q4
+South Africa,TB_STAT_N,TB cases with documented HIV status,28623,2021 Q1
+South Africa,TB_STAT_N,TB cases with documented HIV status,24868,2021 Q2
+South Africa,TB_STAT_N,TB cases with documented HIV status,27542,2021 Q3
+South Africa,TB_STAT_N,TB cases with documented HIV status,27700,2021 Q4
+South Africa,TB_STAT_N,TB cases with documented HIV status,32205,2022 Q1
+South Africa,TB_STAT_N,TB cases with documented HIV status,36421,2022 Q2
+South Africa,TB_STAT_N,TB cases with documented HIV status,32213,2022 Q3
+South Africa,TB_STAT_N,TB cases with documented HIV status,36900,2022 Q4
+South Africa,TB_STAT_N,TB cases with documented HIV status,36341,2023 Q1
+South Africa,TB_STAT_N,TB cases with documented HIV status,36016,2023 Q2
+South Africa,TB_STAT_N,TB cases with documented HIV status,33000,2023 Q3
+South Africa,TB_STAT_N,TB cases with documented HIV status,38741,2023 Q4
+South Africa,TB_STAT_N,TB cases with documented HIV status,35516,2024 Q1
+South Africa,TB_STAT_N,TB cases with documented HIV status,34830,2024 Q2
+South Africa,TB_STAT_N,TB cases with documented HIV status,27069,2024 Q3
+South Africa,TB_STAT_N,TB cases with documented HIV status,35536,2024 Q4
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,20697,2020 Q1
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,20253,2020 Q2
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,11718,2020 Q3
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,12149,2020 Q4
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,15836,2021 Q1
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,13328,2021 Q2
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,14776,2021 Q3
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,14272,2021 Q4
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,18091,2022 Q1
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,20352,2022 Q2
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,18364,2022 Q3
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,21586,2022 Q4
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,20714,2023 Q1
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,20426,2023 Q2
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,18898,2023 Q3
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,21997,2023 Q4
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,20806,2024 Q1
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,19938,2024 Q2
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,15173,2024 Q3
+South Africa,TB_STAT_POS,TB cases with a documented HIV positive status,19308,2024 Q4
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,144674,2020 Q1
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,159979,2020 Q2
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,100721,2020 Q3
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,201432,2020 Q4
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,103767,2021 Q1
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,110836,2021 Q2
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,101552,2021 Q3
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,183864,2021 Q4
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,85535,2022 Q1
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,98872,2022 Q2
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,85489,2022 Q3
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,191385,2022 Q4
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,83867,2023 Q1
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,89434,2023 Q2
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,77846,2023 Q3
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,176532,2023 Q4
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,72965,2024 Q1
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,81771,2024 Q2
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,68965,2024 Q3
+South Africa,TX_NEW,People newly enrolled on antiretroviral therapy,154130,2024 Q4
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,948684,2020 Q1
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,1038954,2020 Q2
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,965523,2020 Q3
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,820159,2020 Q4
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,796102,2021 Q1
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,854464,2021 Q2
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,831168,2021 Q3
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,767248,2021 Q4
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,676586,2022 Q1
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,708549,2022 Q2
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,805637,2022 Q3
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,903037,2022 Q4
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,1296021,2023 Q1
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,1413746,2023 Q2
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,1473601,2023 Q3
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,1453619,2023 Q4
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,1601948,2024 Q1
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,1888132,2024 Q2
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,2166055,2024 Q3
+Tanzania,HTS_TST,Individuals tested for HIV and received their results,2308878,2024 Q4
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,75334,2020 Q1
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,79404,2020 Q2
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,68903,2020 Q3
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,51165,2020 Q4
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,52880,2021 Q1
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,54910,2021 Q2
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,54848,2021 Q3
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,47209,2021 Q4
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,38893,2022 Q1
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,41603,2022 Q2
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,42117,2022 Q3
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,43574,2022 Q4
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,45027,2023 Q1
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,46279,2023 Q2
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,43839,2023 Q3
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,38522,2023 Q4
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,34198,2024 Q1
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,34866,2024 Q2
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,33665,2024 Q3
+Tanzania,HTS_TST_POS,Individuals newly tested positive for HIV,32656,2024 Q4
+Tanzania,TB_STAT_D,TB cases with documented HIV status,14385,2020 Q1
+Tanzania,TB_STAT_D,TB cases with documented HIV status,19034,2020 Q2
+Tanzania,TB_STAT_D,TB cases with documented HIV status,15234,2020 Q3
+Tanzania,TB_STAT_D,TB cases with documented HIV status,14698,2020 Q4
+Tanzania,TB_STAT_D,TB cases with documented HIV status,15195,2021 Q1
+Tanzania,TB_STAT_D,TB cases with documented HIV status,15040,2021 Q2
+Tanzania,TB_STAT_D,TB cases with documented HIV status,16570,2021 Q3
+Tanzania,TB_STAT_D,TB cases with documented HIV status,16554,2021 Q4
+Tanzania,TB_STAT_D,TB cases with documented HIV status,14947,2022 Q1
+Tanzania,TB_STAT_D,TB cases with documented HIV status,16137,2022 Q2
+Tanzania,TB_STAT_D,TB cases with documented HIV status,17656,2022 Q3
+Tanzania,TB_STAT_D,TB cases with documented HIV status,19385,2022 Q4
+Tanzania,TB_STAT_D,TB cases with documented HIV status,16025,2023 Q1
+Tanzania,TB_STAT_D,TB cases with documented HIV status,17901,2023 Q2
+Tanzania,TB_STAT_D,TB cases with documented HIV status,17870,2023 Q3
+Tanzania,TB_STAT_D,TB cases with documented HIV status,15767,2023 Q4
+Tanzania,TB_STAT_D,TB cases with documented HIV status,13551,2024 Q1
+Tanzania,TB_STAT_D,TB cases with documented HIV status,14338,2024 Q2
+Tanzania,TB_STAT_D,TB cases with documented HIV status,13685,2024 Q3
+Tanzania,TB_STAT_D,TB cases with documented HIV status,14230,2024 Q4
+Tanzania,TB_STAT_N,TB cases with documented HIV status,13977,2020 Q1
+Tanzania,TB_STAT_N,TB cases with documented HIV status,18859,2020 Q2
+Tanzania,TB_STAT_N,TB cases with documented HIV status,15040,2020 Q3
+Tanzania,TB_STAT_N,TB cases with documented HIV status,14631,2020 Q4
+Tanzania,TB_STAT_N,TB cases with documented HIV status,15159,2021 Q1
+Tanzania,TB_STAT_N,TB cases with documented HIV status,14961,2021 Q2
+Tanzania,TB_STAT_N,TB cases with documented HIV status,16475,2021 Q3
+Tanzania,TB_STAT_N,TB cases with documented HIV status,16061,2021 Q4
+Tanzania,TB_STAT_N,TB cases with documented HIV status,14824,2022 Q1
+Tanzania,TB_STAT_N,TB cases with documented HIV status,16029,2022 Q2
+Tanzania,TB_STAT_N,TB cases with documented HIV status,17571,2022 Q3
+Tanzania,TB_STAT_N,TB cases with documented HIV status,19231,2022 Q4
+Tanzania,TB_STAT_N,TB cases with documented HIV status,15964,2023 Q1
+Tanzania,TB_STAT_N,TB cases with documented HIV status,17731,2023 Q2
+Tanzania,TB_STAT_N,TB cases with documented HIV status,17796,2023 Q3
+Tanzania,TB_STAT_N,TB cases with documented HIV status,15634,2023 Q4
+Tanzania,TB_STAT_N,TB cases with documented HIV status,13530,2024 Q1
+Tanzania,TB_STAT_N,TB cases with documented HIV status,13996,2024 Q2
+Tanzania,TB_STAT_N,TB cases with documented HIV status,13527,2024 Q3
+Tanzania,TB_STAT_N,TB cases with documented HIV status,14192,2024 Q4
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3707,2020 Q1
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,4678,2020 Q2
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3607,2020 Q3
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3097,2020 Q4
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3436,2021 Q1
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3380,2021 Q2
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3375,2021 Q3
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,2944,2021 Q4
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,2854,2022 Q1
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3257,2022 Q2
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3369,2022 Q3
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3421,2022 Q4
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3260,2023 Q1
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3762,2023 Q2
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,3482,2023 Q3
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,2916,2023 Q4
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,2759,2024 Q1
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,2913,2024 Q2
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,2549,2024 Q3
+Tanzania,TB_STAT_POS,TB cases with a documented HIV positive status,2697,2024 Q4
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,76106,2020 Q1
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,78334,2020 Q2
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,68977,2020 Q3
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,51391,2020 Q4
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,49666,2021 Q1
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,51432,2021 Q2
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,53179,2021 Q3
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,46635,2021 Q4
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,41329,2022 Q1
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,43306,2022 Q2
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,43557,2022 Q3
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,44680,2022 Q4
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,45235,2023 Q1
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,46508,2023 Q2
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,43860,2023 Q3
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,36588,2023 Q4
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,32515,2024 Q1
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,34422,2024 Q2
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,32543,2024 Q3
+Tanzania,TX_NEW,People newly enrolled on antiretroviral therapy,31987,2024 Q4
+Zambia,HTS_TST,Individuals tested for HIV and received their results,771792,2020 Q1
+Zambia,HTS_TST,Individuals tested for HIV and received their results,781106,2020 Q2
+Zambia,HTS_TST,Individuals tested for HIV and received their results,611903,2020 Q3
+Zambia,HTS_TST,Individuals tested for HIV and received their results,624812,2020 Q4
+Zambia,HTS_TST,Individuals tested for HIV and received their results,605775,2021 Q1
+Zambia,HTS_TST,Individuals tested for HIV and received their results,616687,2021 Q2
+Zambia,HTS_TST,Individuals tested for HIV and received their results,586864,2021 Q3
+Zambia,HTS_TST,Individuals tested for HIV and received their results,521169,2021 Q4
+Zambia,HTS_TST,Individuals tested for HIV and received their results,568963,2022 Q1
+Zambia,HTS_TST,Individuals tested for HIV and received their results,650480,2022 Q2
+Zambia,HTS_TST,Individuals tested for HIV and received their results,691188,2022 Q3
+Zambia,HTS_TST,Individuals tested for HIV and received their results,836272,2022 Q4
+Zambia,HTS_TST,Individuals tested for HIV and received their results,808423,2023 Q1
+Zambia,HTS_TST,Individuals tested for HIV and received their results,838229,2023 Q2
+Zambia,HTS_TST,Individuals tested for HIV and received their results,879078,2023 Q3
+Zambia,HTS_TST,Individuals tested for HIV and received their results,1013610,2023 Q4
+Zambia,HTS_TST,Individuals tested for HIV and received their results,1022810,2024 Q1
+Zambia,HTS_TST,Individuals tested for HIV and received their results,1335747,2024 Q2
+Zambia,HTS_TST,Individuals tested for HIV and received their results,1433623,2024 Q3
+Zambia,HTS_TST,Individuals tested for HIV and received their results,1589331,2024 Q4
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,56729,2020 Q1
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,52651,2020 Q2
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,43758,2020 Q3
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,43990,2020 Q4
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,43030,2021 Q1
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,46813,2021 Q2
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,44258,2021 Q3
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,36060,2021 Q4
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,37310,2022 Q1
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,41188,2022 Q2
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,39885,2022 Q3
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,39143,2022 Q4
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,33390,2023 Q1
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,33688,2023 Q2
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,31043,2023 Q3
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,30647,2023 Q4
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,29633,2024 Q1
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,32575,2024 Q2
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,29690,2024 Q3
+Zambia,HTS_TST_POS,Individuals newly tested positive for HIV,29257,2024 Q4
+Zambia,TB_STAT_D,TB cases with documented HIV status,8186,2020 Q1
+Zambia,TB_STAT_D,TB cases with documented HIV status,8979,2020 Q2
+Zambia,TB_STAT_D,TB cases with documented HIV status,6969,2020 Q3
+Zambia,TB_STAT_D,TB cases with documented HIV status,8997,2020 Q4
+Zambia,TB_STAT_D,TB cases with documented HIV status,11879,2021 Q1
+Zambia,TB_STAT_D,TB cases with documented HIV status,12104,2021 Q2
+Zambia,TB_STAT_D,TB cases with documented HIV status,11627,2021 Q3
+Zambia,TB_STAT_D,TB cases with documented HIV status,11791,2021 Q4
+Zambia,TB_STAT_D,TB cases with documented HIV status,12702,2022 Q1
+Zambia,TB_STAT_D,TB cases with documented HIV status,12399,2022 Q2
+Zambia,TB_STAT_D,TB cases with documented HIV status,11668,2022 Q3
+Zambia,TB_STAT_D,TB cases with documented HIV status,7417,2022 Q4
+Zambia,TB_STAT_D,TB cases with documented HIV status,13773,2023 Q1
+Zambia,TB_STAT_D,TB cases with documented HIV status,14958,2023 Q2
+Zambia,TB_STAT_D,TB cases with documented HIV status,12869,2023 Q3
+Zambia,TB_STAT_D,TB cases with documented HIV status,12887,2023 Q4
+Zambia,TB_STAT_D,TB cases with documented HIV status,11509,2024 Q1
+Zambia,TB_STAT_D,TB cases with documented HIV status,11611,2024 Q2
+Zambia,TB_STAT_D,TB cases with documented HIV status,10615,2024 Q3
+Zambia,TB_STAT_D,TB cases with documented HIV status,12084,2024 Q4
+Zambia,TB_STAT_N,TB cases with documented HIV status,8022,2020 Q1
+Zambia,TB_STAT_N,TB cases with documented HIV status,8776,2020 Q2
+Zambia,TB_STAT_N,TB cases with documented HIV status,6724,2020 Q3
+Zambia,TB_STAT_N,TB cases with documented HIV status,8392,2020 Q4
+Zambia,TB_STAT_N,TB cases with documented HIV status,11130,2021 Q1
+Zambia,TB_STAT_N,TB cases with documented HIV status,11604,2021 Q2
+Zambia,TB_STAT_N,TB cases with documented HIV status,11324,2021 Q3
+Zambia,TB_STAT_N,TB cases with documented HIV status,11230,2021 Q4
+Zambia,TB_STAT_N,TB cases with documented HIV status,12457,2022 Q1
+Zambia,TB_STAT_N,TB cases with documented HIV status,12239,2022 Q2
+Zambia,TB_STAT_N,TB cases with documented HIV status,11505,2022 Q3
+Zambia,TB_STAT_N,TB cases with documented HIV status,7402,2022 Q4
+Zambia,TB_STAT_N,TB cases with documented HIV status,13371,2023 Q1
+Zambia,TB_STAT_N,TB cases with documented HIV status,14500,2023 Q2
+Zambia,TB_STAT_N,TB cases with documented HIV status,12640,2023 Q3
+Zambia,TB_STAT_N,TB cases with documented HIV status,12847,2023 Q4
+Zambia,TB_STAT_N,TB cases with documented HIV status,11393,2024 Q1
+Zambia,TB_STAT_N,TB cases with documented HIV status,11515,2024 Q2
+Zambia,TB_STAT_N,TB cases with documented HIV status,10541,2024 Q3
+Zambia,TB_STAT_N,TB cases with documented HIV status,11978,2024 Q4
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,3601,2020 Q1
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,3802,2020 Q2
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,2833,2020 Q3
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,3157,2020 Q4
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4371,2021 Q1
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4253,2021 Q2
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4372,2021 Q3
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,3867,2021 Q4
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4139,2022 Q1
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4195,2022 Q2
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,3651,2022 Q3
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,3069,2022 Q4
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4532,2023 Q1
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4988,2023 Q2
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4198,2023 Q3
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4371,2023 Q4
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,3605,2024 Q1
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4064,2024 Q2
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,3491,2024 Q3
+Zambia,TB_STAT_POS,TB cases with a documented HIV positive status,4005,2024 Q4
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,47898,2020 Q1
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,45329,2020 Q2
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,38561,2020 Q3
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,38900,2020 Q4
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,38555,2021 Q1
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,42622,2021 Q2
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,39880,2021 Q3
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,32781,2021 Q4
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,34635,2022 Q1
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,37189,2022 Q2
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,35537,2022 Q3
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,35755,2022 Q4
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,30292,2023 Q1
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,30145,2023 Q2
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,27879,2023 Q3
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,27736,2023 Q4
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,26860,2024 Q1
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,29612,2024 Q2
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,26721,2024 Q3
+Zambia,TX_NEW,People newly enrolled on antiretroviral therapy,26965,2024 Q4
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,464845,2020 Q1
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,487559,2020 Q2
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,222472,2020 Q3
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,264856,2020 Q4
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,310663,2021 Q1
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,309165,2021 Q2
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,322513,2021 Q3
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,308840,2021 Q4
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,279038,2022 Q1
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,320657,2022 Q2
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,283932,2022 Q3
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,308069,2022 Q4
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,286664,2023 Q1
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,332127,2023 Q2
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,316777,2023 Q3
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,319855,2023 Q4
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,311911,2024 Q1
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,367583,2024 Q2
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,382628,2024 Q3
+Zimbabwe,HTS_TST,Individuals tested for HIV and received their results,401882,2024 Q4
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,24853,2020 Q1
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,25413,2020 Q2
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,13680,2020 Q3
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,17228,2020 Q4
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,17877,2021 Q1
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,18752,2021 Q2
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,18905,2021 Q3
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,16439,2021 Q4
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,16570,2022 Q1
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,17781,2022 Q2
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,15215,2022 Q3
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,17629,2022 Q4
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,16316,2023 Q1
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,17326,2023 Q2
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,15614,2023 Q3
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,15039,2023 Q4
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,14276,2024 Q1
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,15598,2024 Q2
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,13723,2024 Q3
+Zimbabwe,HTS_TST_POS,Individuals newly tested positive for HIV,13708,2024 Q4
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3928,2020 Q1
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3991,2020 Q2
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,2437,2020 Q3
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,2589,2020 Q4
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3170,2021 Q1
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,2836,2021 Q2
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3196,2021 Q3
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,2974,2021 Q4
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3383,2022 Q1
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3267,2022 Q2
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3270,2022 Q3
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3773,2022 Q4
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3520,2023 Q1
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3430,2023 Q2
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3630,2023 Q3
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3942,2023 Q4
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3825,2024 Q1
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3901,2024 Q2
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,3548,2024 Q3
+Zimbabwe,TB_STAT_D,TB cases with documented HIV status,4087,2024 Q4
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3821,2020 Q1
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3809,2020 Q2
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,2371,2020 Q3
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,2459,2020 Q4
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3125,2021 Q1
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,2756,2021 Q2
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3087,2021 Q3
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,2808,2021 Q4
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3198,2022 Q1
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3090,2022 Q2
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3053,2022 Q3
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3526,2022 Q4
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3320,2023 Q1
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3310,2023 Q2
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3450,2023 Q3
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3819,2023 Q4
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3804,2024 Q1
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3870,2024 Q2
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,3510,2024 Q3
+Zimbabwe,TB_STAT_N,TB cases with documented HIV status,4067,2024 Q4
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2501,2020 Q1
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2329,2020 Q2
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1528,2020 Q3
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1520,2020 Q4
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1893,2021 Q1
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1625,2021 Q2
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1876,2021 Q3
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1655,2021 Q4
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1825,2022 Q1
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1729,2022 Q2
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1874,2022 Q3
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2129,2022 Q4
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2010,2023 Q1
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2006,2023 Q2
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2105,2023 Q3
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2265,2023 Q4
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1956,2024 Q1
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2020,2024 Q2
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,1794,2024 Q3
+Zimbabwe,TB_STAT_POS,TB cases with a documented HIV positive status,2110,2024 Q4
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,22893,2020 Q1
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,24256,2020 Q2
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,13128,2020 Q3
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,16117,2020 Q4
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,16595,2021 Q1
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,17799,2021 Q2
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,18042,2021 Q3
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,15642,2021 Q4
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,15793,2022 Q1
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,16896,2022 Q2
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,14813,2022 Q3
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,16787,2022 Q4
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,15659,2023 Q1
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,16856,2023 Q2
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,14716,2023 Q3
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,14466,2023 Q4
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,13922,2024 Q1
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,14984,2024 Q2
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,13132,2024 Q3
+Zimbabwe,TX_NEW,People newly enrolled on antiretroviral therapy,13106,2024 Q4
