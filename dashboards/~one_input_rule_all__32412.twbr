@@ -1,0 +1,2029 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0308.0326                               -->
+<workbook original-version='18.1' source-build='2024.1.1 (20241.24.0308.0326)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CustomReferenceLineTooltips />
+    <_.fcp.DatagraphCoreV1.true...DatagraphCoreV1 />
+    <_.fcp.DatagraphNodeAxisTitle.true...DatagraphNodeAxisTitle />
+    <_.fcp.DatagraphNodeSingleValueFieldV1.true...DatagraphNodeSingleValueFieldV1 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location id='one_input_rule_all' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Trellis columns' datatype='integer' name='[Parameter 17]' param-domain-type='any' role='measure' type='quantitative' value='4'>
+        <calculation class='tableau' formula='4' />
+      </column>
+      <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+        <calculation class='tableau' formula='1' />
+        <aliases>
+          <alias key='1' value='HIV Positivity Rate' />
+          <alias key='2' value='HIV Treatment Linkage Rate' />
+          <alias key='3' value='TB Aware of HIV Status Rate' />
+          <alias key='4' value='TB/HIV Coinfection Rate' />
+        </aliases>
+        <members>
+          <member alias='HIV Positivity Rate' value='1' />
+          <member alias='HIV Treatment Linkage Rate' value='2' />
+          <member alias='TB Aware of HIV Status Rate' value='3' />
+          <member alias='TB/HIV Coinfection Rate' value='4' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='clean_pepfar_test_data' inline='true' name='federated.02vrhj11i6z04i12a1mek10o5mq8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='clean_pepfar_test_data' name='textscan.17da4fw0i4o7l91gofkc116cudwd'>
+            <connection class='textscan' directory='C:/Users/kirst/Sync/Portfolio/one_input_rule_all/Dataout' filename='clean_pepfar_test_data.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.17da4fw0i4o7l91gofkc116cudwd' name='clean_pepfar_test_data.csv' table='[clean_pepfar_test_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='string' name='indicator' ordinal='1' />
+            <column datatype='string' name='description' ordinal='2' />
+            <column datatype='integer' name='value' ordinal='3' />
+            <column datatype='string' name='period' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.17da4fw0i4o7l91gofkc116cudwd' name='clean_pepfar_test_data.csv' table='[clean_pepfar_test_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='string' name='indicator' ordinal='1' />
+            <column datatype='string' name='description' ordinal='2' />
+            <column datatype='integer' name='value' ordinal='3' />
+            <column datatype='string' name='period' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-refresh-mode='' incremental-updates='' required-client-version='' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[clean_pepfar_test_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[clean_pepfar_test_data.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>indicator</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[indicator]</local-name>
+            <parent-name>[clean_pepfar_test_data.csv]</parent-name>
+            <remote-alias>indicator</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[clean_pepfar_test_data.csv]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[value]</local-name>
+            <parent-name>[clean_pepfar_test_data.csv]</parent-name>
+            <remote-alias>value</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>period</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[period]</local-name>
+            <parent-name>[clean_pepfar_test_data.csv]</parent-name>
+            <remote-alias>period</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='HTS_TST' datatype='integer' name='[Calculation_2280791758134730752]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST&quot;, value, null)' />
+      </column>
+      <column caption='hiv_positivity_rate' datatype='real' name='[Calculation_2280791758135701510]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([HTS_TST_result (copy)_2280791758135042049]) / sum([Calculation_2280791758134730752])' />
+      </column>
+      <column caption='treatment_linkage %' datatype='real' name='[Calculation_2280791758136872967]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([HTS_POS_result (copy)_2280791758135115778]) / sum([HTS_TST_result (copy)_2280791758135042049])' />
+      </column>
+      <column caption='indicator - % - description' datatype='string' name='[Calculation_2280791758138884105]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;HIV Positivity %&quot;&#13;&#10;when 2 then &quot;Linkage to Treatment %&quot;&#13;&#10;when 3 then &quot;TB patients with known HIV status %&quot;&#13;&#10;when 4 then &quot;TB patients who are HIV-positive %&quot;&#13;&#10;END' />
+      </column>
+      <column caption='indicator - numerator' datatype='integer' name='[Calculation_2280791758139564042]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [HTS_TST_result (copy)_2280791758135042049]&#13;&#10;when 2 then [HTS_POS_result (copy)_2280791758135115778]&#13;&#10;when 3 then [TB_STAT_D (copy)_2280791758230577169]&#13;&#10;when 4 then [TB_STAT_D (copy)_2280791758230630418]&#13;&#10;END' />
+      </column>
+      <column caption='Period as date' datatype='date' datatype-customized='true' name='[Calculation_2280791758229540879]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATE(DATEPARSE(&quot;yyyy QQQ&quot;,[period]))' />
+      </column>
+      <column caption='indicator - axis title' datatype='string' hidden='true' name='[Calculation_2280791758234714133]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&quot;N: &quot; + [indicator - numerator (copy)_2280791758140583950] + &quot; D:&quot; + [indicator - denominator (copy)_2280791758140375053]' />
+      </column>
+      <column caption='indicator - % - axis' datatype='real' name='[Calculation_2280791758419628081]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[indicator - denominator (copy)_2280791758140121100] * 1.15' />
+      </column>
+      <column caption='indicator - denominator - axis' datatype='real' name='[Calculation_2280791758420017202]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[indicator - numerator (copy)_2280791758139760651] * 1.2' />
+      </column>
+      <column caption='Trellis columns' datatype='integer' name='[Calculation_916201053597491206]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='IIF((INDEX() % [Parameters].[Parameter 17])=0,[Parameters].[Parameter 17],INDEX() % [Parameters].[Parameter 17])'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Trellis row value' datatype='real' name='[Calculation_916201053597601800]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='INDEX()/[Parameters].[Parameter 17]'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Trellis rows' datatype='real' name='[Calculation_916201053597679625]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='if [Calculation_916201053597601800]=int([Calculation_916201053597601800]) then &#13;&#10;    [Calculation_916201053597601800]&#13;&#10;elseif &#13;&#10;    [Calculation_916201053597601800]&lt;0 then int([Calculation_916201053597601800]) &#13;&#10;else&#13;&#10;    int([Calculation_916201053597601800]+1)&#13;&#10;end'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='TX_NEW' datatype='integer' name='[HTS_POS_result (copy)_2280791758135115778]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='iif(indicator = &quot;TX_NEW&quot;, value, null)' />
+      </column>
+      <column caption='TB_STAT_D' datatype='integer' name='[HTS_TST (copy)_2280791758230511632]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_D&quot;, value, null)' />
+      </column>
+      <column caption='HTS_TST_POS' datatype='integer' name='[HTS_TST_result (copy)_2280791758135042049]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST_POS&quot;, value, null)' />
+      </column>
+      <column caption='TB_STAT_N' datatype='integer' name='[TB_STAT_D (copy)_2280791758230577169]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_N&quot;, value, null)' />
+      </column>
+      <column caption='TB_STAT_POS' datatype='integer' name='[TB_STAT_D (copy)_2280791758230630418]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_POS&quot;, value, null)' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='clean_pepfar_test_data.csv' datatype='table' hidden='true' name='[__tableau_internal_object_id__].[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]' role='measure' type='quantitative' />
+      <column datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <aliases>
+          <alias key='&quot;Democratic Republic of the Congo&quot;' value='DR Congo' />
+        </aliases>
+      </column>
+      <column datatype='string' hidden='true' name='[description]' role='dimension' type='nominal' />
+      <column caption='TB_STAT_POS %' datatype='real' name='[hiv_positivity_rate (copy)_2280791758233440275]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([TB_STAT_D (copy)_2280791758230630418]) / sum([TB_STAT_D (copy)_2280791758230577169])' />
+      </column>
+      <column caption='indicator - %' datatype='real' default-format='p0.0%' name='[indicator - denominator (copy)_2280791758140121100]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [Calculation_2280791758135701510]&#13;&#10;when 2 then [Calculation_2280791758136872967]&#13;&#10;when 3 then [tb_stat_pos_% (copy)_2280791758233612308]&#13;&#10;when 4 then [hiv_positivity_rate (copy)_2280791758233440275]&#13;&#10;END' />
+      </column>
+      <column caption='indicator - denominator - description' datatype='string' name='[indicator - denominator (copy)_2280791758140375053]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;Total tests conducted&quot;&#13;&#10;when 2 then &quot;Number who tested positive&quot;&#13;&#10;when 3 then &quot;Total patients with TB&quot;&#13;&#10;when 4 then &quot;Number of TB patients with a known HIV status&quot;&#13;&#10;END' />
+      </column>
+      <column caption='indicator - denominator' datatype='integer' name='[indicator - numerator (copy)_2280791758139760651]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [Calculation_2280791758134730752]&#13;&#10;when 2 then [HTS_TST_result (copy)_2280791758135042049]&#13;&#10;when 3 then [HTS_TST (copy)_2280791758230511632]&#13;&#10;when 4 then [TB_STAT_D (copy)_2280791758230577169]&#13;&#10;END' />
+      </column>
+      <column caption='indicator - numerator - description' datatype='string' name='[indicator - numerator (copy)_2280791758140583950]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;Number of positive tests&quot;&#13;&#10;when 2 then &quot;Number of newly enrolled in HIV treatment&quot;&#13;&#10;when 3 then &quot;Number of TB patients with known HIV status&quot;&#13;&#10;when 4 then &quot;Number of TB patients who are HIV-positive&quot;&#13;&#10;&#13;&#10;END' />
+      </column>
+      <column caption='TB_STAT %' datatype='real' name='[tb_stat_pos_% (copy)_2280791758233612308]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='sum([TB_STAT_D (copy)_2280791758230577169]) / sum([HTS_TST (copy)_2280791758230511632])' />
+      </column>
+      <column-instance column='[Calculation_2280791758139564042]' derivation='Sum' name='[sum:Calculation_2280791758139564042:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[indicator - numerator (copy)_2280791758139760651]' derivation='Sum' name='[sum:indicator - numerator (copy)_2280791758139760651:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[indicator - denominator (copy)_2280791758140121100]' derivation='User' name='[usr:indicator - denominator (copy)_2280791758140121100:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='Data/TableauTemp/TEMP_0ky49v81142vn71c1a3rz1ufx7w0.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/18/2025 08:21:48 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh increment-key='' incremental-refresh-mode='' incremental-updates='' required-client-version=''>
+            <refresh-event add-from-file-path='clean_pepfar_test_data' increment-value='%null%' refresh-type='create' rows-inserted='1440' timestamp-start='2025-06-18 08:21:47.964' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>country</remote-alias>
+              <ordinal>0</ordinal>
+              <family>clean_pepfar_test_data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>indicator</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[indicator]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>indicator</remote-alias>
+              <ordinal>1</ordinal>
+              <family>clean_pepfar_test_data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>description</remote-alias>
+              <ordinal>2</ordinal>
+              <family>clean_pepfar_test_data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>value</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[value]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>value</remote-alias>
+              <ordinal>3</ordinal>
+              <family>clean_pepfar_test_data.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1194</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>period</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[period]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>period</remote-alias>
+              <ordinal>4</ordinal>
+              <family>clean_pepfar_test_data.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='0.934919' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.0650814' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411595814:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411878441:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411489315:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411857960:qk]&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408597531:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408577049:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Denmark&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='province' />
+        <field-sort-custom-order field='indicator' />
+        <field-sort-custom-order field='fiscal_year' />
+        <field-sort-custom-order field='Result' />
+        <field-sort-custom-order field='Calculation_2280791758134730752' />
+        <field-sort-custom-order field='HTS_TST (copy)_2280791758230511632' />
+        <field-sort-custom-order field='TB_STAT_D (copy)_2280791758230630418' />
+        <field-sort-custom-order field='TB_STAT_D (copy)_2280791758230577169' />
+        <field-sort-custom-order field='HTS_TST_result (copy)_2280791758135275524' />
+        <field-sort-custom-order field='HTS_TST_result (copy)_2280791758135042049' />
+        <field-sort-custom-order field='HTS_POS_result (copy)_2280791758135209987' />
+        <field-sort-custom-order field='HTS_POS_result (copy)_2280791758135115778' />
+        <field-sort-custom-order field='TX_NEW_result (copy)_2280791758135324677' />
+        <field-sort-custom-order field='Target' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Trellis columns' datatype='integer' name='[Parameter 17]' param-domain-type='any' role='measure' type='quantitative' value='4'>
+          <calculation class='tableau' formula='4' />
+        </column>
+        <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+          <calculation class='tableau' formula='1' />
+          <aliases>
+            <alias key='1' value='HIV Positivity Rate' />
+            <alias key='2' value='HIV Treatment Linkage Rate' />
+            <alias key='3' value='TB Aware of HIV Status Rate' />
+            <alias key='4' value='TB/HIV Coinfection Rate' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='clean_pepfar_test_data.csv' id='clean_pepfar_test_data.csv_102188611A1C4DA1962A4FFF1FBC4C06'>
+            <properties context=''>
+              <relation connection='textscan.17da4fw0i4o7l91gofkc116cudwd' name='clean_pepfar_test_data.csv' table='[clean_pepfar_test_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='country' ordinal='0' />
+                  <column datatype='string' name='indicator' ordinal='1' />
+                  <column datatype='string' name='description' ordinal='2' />
+                  <column datatype='integer' name='value' ordinal='3' />
+                  <column datatype='string' name='period' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='KPI: %'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clean_pepfar_test_data' name='federated.02vrhj11i6z04i12a1mek10o5mq8' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+              <calculation class='tableau' formula='1' />
+              <aliases>
+                <alias key='1' value='HIV Positivity Rate' />
+                <alias key='2' value='HIV Treatment Linkage Rate' />
+                <alias key='3' value='TB Aware of HIV Status Rate' />
+                <alias key='4' value='TB/HIV Coinfection Rate' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.02vrhj11i6z04i12a1mek10o5mq8'>
+            <column caption='HTS_TST' datatype='integer' name='[Calculation_2280791758134730752]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST&quot;, value, null)' />
+            </column>
+            <column caption='hiv_positivity_rate' datatype='real' name='[Calculation_2280791758135701510]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([HTS_TST_result (copy)_2280791758135042049]) / sum([Calculation_2280791758134730752])' />
+            </column>
+            <column caption='treatment_linkage %' datatype='real' name='[Calculation_2280791758136872967]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([HTS_POS_result (copy)_2280791758135115778]) / sum([HTS_TST_result (copy)_2280791758135042049])' />
+            </column>
+            <column caption='indicator - % - description' datatype='string' name='[Calculation_2280791758138884105]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;HIV Positivity %&quot;&#13;&#10;when 2 then &quot;Linkage to Treatment %&quot;&#13;&#10;when 3 then &quot;TB patients with known HIV status %&quot;&#13;&#10;when 4 then &quot;TB patients who are HIV-positive %&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Period as date' datatype='date' datatype-customized='true' name='[Calculation_2280791758229540879]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE(&quot;yyyy QQQ&quot;,[period]))' />
+            </column>
+            <column caption='TX_NEW' datatype='integer' name='[HTS_POS_result (copy)_2280791758135115778]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TX_NEW&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_D' datatype='integer' name='[HTS_TST (copy)_2280791758230511632]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_D&quot;, value, null)' />
+            </column>
+            <column caption='HTS_TST_POS' datatype='integer' name='[HTS_TST_result (copy)_2280791758135042049]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST_POS&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_N' datatype='integer' name='[TB_STAT_D (copy)_2280791758230577169]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_N&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_POS' datatype='integer' name='[TB_STAT_D (copy)_2280791758230630418]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_POS&quot;, value, null)' />
+            </column>
+            <column datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <aliases>
+                <alias key='&quot;Democratic Republic of the Congo&quot;' value='DR Congo' />
+              </aliases>
+            </column>
+            <column caption='TB_STAT_POS %' datatype='real' name='[hiv_positivity_rate (copy)_2280791758233440275]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([TB_STAT_D (copy)_2280791758230630418]) / sum([TB_STAT_D (copy)_2280791758230577169])' />
+            </column>
+            <column caption='indicator - %' datatype='real' default-format='p0.0%' name='[indicator - denominator (copy)_2280791758140121100]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [Calculation_2280791758135701510]&#13;&#10;when 2 then [Calculation_2280791758136872967]&#13;&#10;when 3 then [tb_stat_pos_% (copy)_2280791758233612308]&#13;&#10;when 4 then [hiv_positivity_rate (copy)_2280791758233440275]&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[indicator]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2280791758138884105]' derivation='None' name='[none:Calculation_2280791758138884105:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2280791758229540879]' derivation='None' name='[none:Calculation_2280791758229540879:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[period]' derivation='None' name='[none:period:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[period]' role='dimension' type='nominal' />
+            <column caption='TB_STAT %' datatype='real' name='[tb_stat_pos_% (copy)_2280791758233612308]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([TB_STAT_D (copy)_2280791758230577169]) / sum([HTS_TST (copy)_2280791758230511632])' />
+            </column>
+            <column-instance column='[indicator - denominator (copy)_2280791758140121100]' derivation='User' name='[usr:indicator - denominator (copy)_2280791758140121100:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[value]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:Calculation_2280791758229540879:ok]'>
+            <groupfilter function='member' level='[none:Calculation_2280791758229540879:ok]' member='#2024-10-01#' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <preset type='last-values' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:period:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:Calculation_2280791758229540879:ok]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' />
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:Calculation_2280791758138884105:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='10'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:Calculation_2280791758138884105:nk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{BDCB6D6E-BDAD-4318-8EF5-44A7830B4845}' />
+    </worksheet>
+    <worksheet name='KPI: D'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clean_pepfar_test_data' name='federated.02vrhj11i6z04i12a1mek10o5mq8' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+              <calculation class='tableau' formula='1' />
+              <aliases>
+                <alias key='1' value='HIV Positivity Rate' />
+                <alias key='2' value='HIV Treatment Linkage Rate' />
+                <alias key='3' value='TB Aware of HIV Status Rate' />
+                <alias key='4' value='TB/HIV Coinfection Rate' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.02vrhj11i6z04i12a1mek10o5mq8'>
+            <column caption='HTS_TST' datatype='integer' name='[Calculation_2280791758134730752]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST&quot;, value, null)' />
+            </column>
+            <column caption='Period as date' datatype='date' datatype-customized='true' name='[Calculation_2280791758229540879]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE(&quot;yyyy QQQ&quot;,[period]))' />
+            </column>
+            <column caption='TB_STAT_D' datatype='integer' name='[HTS_TST (copy)_2280791758230511632]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_D&quot;, value, null)' />
+            </column>
+            <column caption='HTS_TST_POS' datatype='integer' name='[HTS_TST_result (copy)_2280791758135042049]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST_POS&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_N' datatype='integer' name='[TB_STAT_D (copy)_2280791758230577169]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_N&quot;, value, null)' />
+            </column>
+            <column datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <aliases>
+                <alias key='&quot;Democratic Republic of the Congo&quot;' value='DR Congo' />
+              </aliases>
+            </column>
+            <column caption='indicator - denominator - description' datatype='string' name='[indicator - denominator (copy)_2280791758140375053]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;Total tests conducted&quot;&#13;&#10;when 2 then &quot;Number who tested positive&quot;&#13;&#10;when 3 then &quot;Total patients with TB&quot;&#13;&#10;when 4 then &quot;Number of TB patients with a known HIV status&quot;&#13;&#10;END' />
+            </column>
+            <column caption='indicator - denominator' datatype='integer' name='[indicator - numerator (copy)_2280791758139760651]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [Calculation_2280791758134730752]&#13;&#10;when 2 then [HTS_TST_result (copy)_2280791758135042049]&#13;&#10;when 3 then [HTS_TST (copy)_2280791758230511632]&#13;&#10;when 4 then [TB_STAT_D (copy)_2280791758230577169]&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[indicator]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2280791758229540879]' derivation='None' name='[none:Calculation_2280791758229540879:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[indicator - denominator (copy)_2280791758140375053]' derivation='None' name='[none:indicator - denominator (copy)_2280791758140375053:nk]' pivot='key' type='nominal' />
+            <column-instance column='[period]' derivation='None' name='[none:period:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[period]' role='dimension' type='nominal' />
+            <column-instance column='[indicator - numerator (copy)_2280791758139760651]' derivation='Sum' name='[sum:indicator - numerator (copy)_2280791758139760651:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[value]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:Calculation_2280791758229540879:ok]'>
+            <groupfilter function='member' level='[none:Calculation_2280791758229540879:ok]' member='#2024-10-01#' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <preset type='last-values' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:period:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:Calculation_2280791758229540879:ok]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]' />
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:indicator - denominator (copy)_2280791758140375053:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='10'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:indicator - denominator (copy)_2280791758140375053:nk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{3F81E298-1B3A-4BD1-95E6-690EF12AA83A}' />
+    </worksheet>
+    <worksheet name='KPI: N'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clean_pepfar_test_data' name='federated.02vrhj11i6z04i12a1mek10o5mq8' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+              <calculation class='tableau' formula='1' />
+              <aliases>
+                <alias key='1' value='HIV Positivity Rate' />
+                <alias key='2' value='HIV Treatment Linkage Rate' />
+                <alias key='3' value='TB Aware of HIV Status Rate' />
+                <alias key='4' value='TB/HIV Coinfection Rate' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.02vrhj11i6z04i12a1mek10o5mq8'>
+            <column caption='indicator - numerator' datatype='integer' name='[Calculation_2280791758139564042]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [HTS_TST_result (copy)_2280791758135042049]&#13;&#10;when 2 then [HTS_POS_result (copy)_2280791758135115778]&#13;&#10;when 3 then [TB_STAT_D (copy)_2280791758230577169]&#13;&#10;when 4 then [TB_STAT_D (copy)_2280791758230630418]&#13;&#10;END' />
+            </column>
+            <column caption='Period as date' datatype='date' datatype-customized='true' name='[Calculation_2280791758229540879]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE(DATEPARSE(&quot;yyyy QQQ&quot;,[period]))' />
+            </column>
+            <column caption='TX_NEW' datatype='integer' name='[HTS_POS_result (copy)_2280791758135115778]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TX_NEW&quot;, value, null)' />
+            </column>
+            <column caption='HTS_TST_POS' datatype='integer' name='[HTS_TST_result (copy)_2280791758135042049]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST_POS&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_N' datatype='integer' name='[TB_STAT_D (copy)_2280791758230577169]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_N&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_POS' datatype='integer' name='[TB_STAT_D (copy)_2280791758230630418]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_POS&quot;, value, null)' />
+            </column>
+            <column datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <aliases>
+                <alias key='&quot;Democratic Republic of the Congo&quot;' value='DR Congo' />
+              </aliases>
+            </column>
+            <column caption='indicator - numerator - description' datatype='string' name='[indicator - numerator (copy)_2280791758140583950]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;Number of positive tests&quot;&#13;&#10;when 2 then &quot;Number of newly enrolled in HIV treatment&quot;&#13;&#10;when 3 then &quot;Number of TB patients with known HIV status&quot;&#13;&#10;when 4 then &quot;Number of TB patients who are HIV-positive&quot;&#13;&#10;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[indicator]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2280791758229540879]' derivation='None' name='[none:Calculation_2280791758229540879:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[indicator - numerator (copy)_2280791758140583950]' derivation='None' name='[none:indicator - numerator (copy)_2280791758140583950:nk]' pivot='key' type='nominal' />
+            <column-instance column='[period]' derivation='None' name='[none:period:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[period]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2280791758139564042]' derivation='Sum' name='[sum:Calculation_2280791758139564042:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[value]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:Calculation_2280791758229540879:ok]'>
+            <groupfilter function='member' level='[none:Calculation_2280791758229540879:ok]' member='#2024-10-01#' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <preset type='last-values' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:period:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:Calculation_2280791758229540879:ok]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]' />
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:indicator - numerator (copy)_2280791758140583950:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='10'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:indicator - numerator (copy)_2280791758140583950:nk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{C5567E76-F724-4803-8C45-A078F9A417BB}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A4D33D49-3C29-441D-848D-3AA8B0B5F742}' />
+    </worksheet>
+    <worksheet name='legend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clean_pepfar_test_data' name='federated.02vrhj11i6z04i12a1mek10o5mq8' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+              <calculation class='tableau' formula='1' />
+              <aliases>
+                <alias key='1' value='HIV Positivity Rate' />
+                <alias key='2' value='HIV Treatment Linkage Rate' />
+                <alias key='3' value='TB Aware of HIV Status Rate' />
+                <alias key='4' value='TB/HIV Coinfection Rate' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.02vrhj11i6z04i12a1mek10o5mq8'>
+            <column caption='min(1)' datatype='integer' name='[Calculation_2280791758408564759]' role='measure' type='quantitative' user:unnamed='Sheet 3'>
+              <calculation class='tableau' formula='min(1)' />
+            </column>
+            <column caption='min(1)' datatype='integer' name='[Calculation_2280791758408577049]' role='measure' type='quantitative' user:unnamed='Sheet 3'>
+              <calculation class='tableau' formula='min(1)' />
+            </column>
+            <column caption='min(1)' datatype='integer' name='[Calculation_2280791758408597531]' role='measure' type='quantitative' user:unnamed='Sheet 3'>
+              <calculation class='tableau' formula='min(1)' />
+            </column>
+            <column datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <aliases>
+                <alias key='&quot;Democratic Republic of the Congo&quot;' value='DR Congo' />
+              </aliases>
+            </column>
+            <column caption='indicator - denominator - description' datatype='string' name='[indicator - denominator (copy)_2280791758140375053]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;Total tests conducted&quot;&#13;&#10;when 2 then &quot;Number who tested positive&quot;&#13;&#10;when 3 then &quot;Total patients with TB&quot;&#13;&#10;when 4 then &quot;Number of TB patients with a known HIV status&quot;&#13;&#10;END' />
+            </column>
+            <column caption='indicator - numerator - description' datatype='string' name='[indicator - numerator (copy)_2280791758140583950]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;Number of positive tests&quot;&#13;&#10;when 2 then &quot;Number of newly enrolled in HIV treatment&quot;&#13;&#10;when 3 then &quot;Number of TB patients with known HIV status&quot;&#13;&#10;when 4 then &quot;Number of TB patients who are HIV-positive&quot;&#13;&#10;&#13;&#10;END' />
+            </column>
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[indicator - denominator (copy)_2280791758140375053]' derivation='None' name='[none:indicator - denominator (copy)_2280791758140375053:nk]' pivot='key' type='nominal' />
+            <column-instance column='[indicator - numerator (copy)_2280791758140583950]' derivation='None' name='[none:indicator - numerator (copy)_2280791758140583950:nk]' pivot='key' type='nominal' />
+            <column-instance column='[period]' derivation='None' name='[none:period:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[period]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2280791758408564759]' derivation='User' name='[usr:Calculation_2280791758408564759:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2280791758408577049]' derivation='User' name='[usr:Calculation_2280791758408577049:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2280791758408597531]' derivation='User' name='[usr:Calculation_2280791758408597531:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:period:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408597531:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408577049:qk]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408564759:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10' max='20' min='0' minor-origin='0' minor-show='false' minor-spacing='1' range-type='fixed' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408564759:qk]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408577049:qk]' field-type='quantitative' max='20' min='0' range-type='fixed' scope='cols' type='space' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='wrap' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:indicator - numerator (copy)_2280791758140583950:nk]' value='on' />
+            <format attr='wrap' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:indicator - denominator (copy)_2280791758140375053:nk]' value='on' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='rows' value='0' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='right' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408564759:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:indicator - denominator (copy)_2280791758140375053:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='right' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#d3d3d3' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408577049:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:indicator - numerator (copy)_2280791758140583950:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='right' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#989ca3' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408597531:qk]</rows>
+        <cols>([federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408577049:qk] + [federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758408564759:qk])</cols>
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{68D99D93-FBAE-4CE3-8B96-D05491BAA7E5}' />
+    </worksheet>
+    <worksheet name='main chart'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>[Parameters].[Parameter 1]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clean_pepfar_test_data' name='federated.02vrhj11i6z04i12a1mek10o5mq8' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Trellis columns' datatype='integer' name='[Parameter 17]' param-domain-type='any' role='measure' type='quantitative' value='4'>
+              <calculation class='tableau' formula='4' />
+            </column>
+            <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+              <calculation class='tableau' formula='1' />
+              <aliases>
+                <alias key='1' value='HIV Positivity Rate' />
+                <alias key='2' value='HIV Treatment Linkage Rate' />
+                <alias key='3' value='TB Aware of HIV Status Rate' />
+                <alias key='4' value='TB/HIV Coinfection Rate' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.02vrhj11i6z04i12a1mek10o5mq8'>
+            <column caption='HTS_TST' datatype='integer' name='[Calculation_2280791758134730752]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST&quot;, value, null)' />
+            </column>
+            <column caption='hiv_positivity_rate' datatype='real' name='[Calculation_2280791758135701510]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([HTS_TST_result (copy)_2280791758135042049]) / sum([Calculation_2280791758134730752])' />
+            </column>
+            <column caption='treatment_linkage %' datatype='real' name='[Calculation_2280791758136872967]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([HTS_POS_result (copy)_2280791758135115778]) / sum([HTS_TST_result (copy)_2280791758135042049])' />
+            </column>
+            <column caption='indicator - % - description' datatype='string' name='[Calculation_2280791758138884105]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;HIV Positivity %&quot;&#13;&#10;when 2 then &quot;Linkage to Treatment %&quot;&#13;&#10;when 3 then &quot;TB patients with known HIV status %&quot;&#13;&#10;when 4 then &quot;TB patients who are HIV-positive %&quot;&#13;&#10;END' />
+            </column>
+            <column caption='indicator - numerator' datatype='integer' name='[Calculation_2280791758139564042]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [HTS_TST_result (copy)_2280791758135042049]&#13;&#10;when 2 then [HTS_POS_result (copy)_2280791758135115778]&#13;&#10;when 3 then [TB_STAT_D (copy)_2280791758230577169]&#13;&#10;when 4 then [TB_STAT_D (copy)_2280791758230630418]&#13;&#10;END' />
+            </column>
+            <column caption='indicator - % - axis' datatype='real' name='[Calculation_2280791758419628081]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[indicator - denominator (copy)_2280791758140121100] * 1.15' />
+            </column>
+            <column caption='indicator - denominator - axis' datatype='real' name='[Calculation_2280791758420017202]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[indicator - numerator (copy)_2280791758139760651] * 1.2' />
+            </column>
+            <column caption='Trellis columns' datatype='integer' name='[Calculation_916201053597491206]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='IIF((INDEX() % [Parameters].[Parameter 17])=0,[Parameters].[Parameter 17],INDEX() % [Parameters].[Parameter 17])'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Trellis row value' datatype='real' name='[Calculation_916201053597601800]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='INDEX()/[Parameters].[Parameter 17]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Trellis rows' datatype='real' name='[Calculation_916201053597679625]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='if [Calculation_916201053597601800]=int([Calculation_916201053597601800]) then &#13;&#10;    [Calculation_916201053597601800]&#13;&#10;elseif &#13;&#10;    [Calculation_916201053597601800]&lt;0 then int([Calculation_916201053597601800]) &#13;&#10;else&#13;&#10;    int([Calculation_916201053597601800]+1)&#13;&#10;end'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='TX_NEW' datatype='integer' name='[HTS_POS_result (copy)_2280791758135115778]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TX_NEW&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_D' datatype='integer' name='[HTS_TST (copy)_2280791758230511632]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_D&quot;, value, null)' />
+            </column>
+            <column caption='HTS_TST_POS' datatype='integer' name='[HTS_TST_result (copy)_2280791758135042049]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;HTS_TST_POS&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_N' datatype='integer' name='[TB_STAT_D (copy)_2280791758230577169]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_N&quot;, value, null)' />
+            </column>
+            <column caption='TB_STAT_POS' datatype='integer' name='[TB_STAT_D (copy)_2280791758230630418]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='iif(indicator = &quot;TB_STAT_POS&quot;, value, null)' />
+            </column>
+            <column-instance column='[Calculation_2280791758138884105]' derivation='Attribute' name='[attr:Calculation_2280791758138884105:nk]' pivot='key' type='nominal' />
+            <column-instance column='[indicator - denominator (copy)_2280791758140375053]' derivation='Attribute' name='[attr:indicator - denominator (copy)_2280791758140375053:nk]' pivot='key' type='nominal' />
+            <column-instance column='[indicator - numerator (copy)_2280791758140583950]' derivation='Attribute' name='[attr:indicator - numerator (copy)_2280791758140583950:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <aliases>
+                <alias key='&quot;Democratic Republic of the Congo&quot;' value='DR Congo' />
+              </aliases>
+            </column>
+            <column caption='TB_STAT_POS %' datatype='real' name='[hiv_positivity_rate (copy)_2280791758233440275]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([TB_STAT_D (copy)_2280791758230630418]) / sum([TB_STAT_D (copy)_2280791758230577169])' />
+            </column>
+            <column caption='indicator - %' datatype='real' default-format='p0.0%' name='[indicator - denominator (copy)_2280791758140121100]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [Calculation_2280791758135701510]&#13;&#10;when 2 then [Calculation_2280791758136872967]&#13;&#10;when 3 then [tb_stat_pos_% (copy)_2280791758233612308]&#13;&#10;when 4 then [hiv_positivity_rate (copy)_2280791758233440275]&#13;&#10;END' />
+            </column>
+            <column caption='indicator - denominator - description' datatype='string' name='[indicator - denominator (copy)_2280791758140375053]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;Total tests conducted&quot;&#13;&#10;when 2 then &quot;Number who tested positive&quot;&#13;&#10;when 3 then &quot;Total patients with TB&quot;&#13;&#10;when 4 then &quot;Number of TB patients with a known HIV status&quot;&#13;&#10;END' />
+            </column>
+            <column caption='indicator - denominator' datatype='integer' name='[indicator - numerator (copy)_2280791758139760651]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then [Calculation_2280791758134730752]&#13;&#10;when 2 then [HTS_TST_result (copy)_2280791758135042049]&#13;&#10;when 3 then [HTS_TST (copy)_2280791758230511632]&#13;&#10;when 4 then [TB_STAT_D (copy)_2280791758230577169]&#13;&#10;END' />
+            </column>
+            <column caption='indicator - numerator - description' datatype='string' name='[indicator - numerator (copy)_2280791758140583950]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='case [Parameters].[Parameter 1]&#13;&#10;when 1 then &quot;Number of positive tests&quot;&#13;&#10;when 2 then &quot;Number of newly enrolled in HIV treatment&quot;&#13;&#10;when 3 then &quot;Number of TB patients with known HIV status&quot;&#13;&#10;when 4 then &quot;Number of TB patients who are HIV-positive&quot;&#13;&#10;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[indicator]' role='dimension' type='nominal' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[period]' derivation='None' name='[none:period:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[period]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2280791758139564042]' derivation='Sum' name='[sum:Calculation_2280791758139564042:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2280791758420017202]' derivation='Sum' name='[sum:Calculation_2280791758420017202:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[indicator - numerator (copy)_2280791758139760651]' derivation='Sum' name='[sum:indicator - numerator (copy)_2280791758139760651:qk]' pivot='key' type='quantitative' />
+            <column caption='TB_STAT %' datatype='real' name='[tb_stat_pos_% (copy)_2280791758233612308]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='sum([TB_STAT_D (copy)_2280791758230577169]) / sum([HTS_TST (copy)_2280791758230511632])' />
+            </column>
+            <column-instance column='[Calculation_2280791758419628081]' derivation='User' name='[usr:Calculation_2280791758419628081:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_916201053597491206]' derivation='User' name='[usr:Calculation_916201053597491206:ok:2]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[country]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_916201053597679625]' derivation='User' name='[usr:Calculation_916201053597679625:ok:2]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[country]' ordering-type='Field' />
+              <table-calc field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[Calculation_916201053597601800]' ordering-field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[country]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[indicator - denominator (copy)_2280791758140121100]' derivation='User' name='[usr:indicator - denominator (copy)_2280791758140121100:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[value]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]&quot;</bucket>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]&quot;</bucket>
+              <bucket>&quot;[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:period:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[:Measure Names]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' scope='rows' value='HIV Positivity %' />
+            <format attr='title' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[Multiple Values]' scope='rows' value='Number of Clients' />
+            <encoding attr='space' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[Multiple Values]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='width' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' value='104' />
+            <format attr='width' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[Multiple Values]' value='104' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_916201053597491206:ok:2]' value='false' />
+            <format attr='display' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_916201053597679625:ok:2]' value='false' />
+            <format attr='text-format' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='stroke-size' id='refline0' value='0' />
+            <format attr='line-visibility' id='refline0' value='off' />
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-size' id='refline1' value='0' />
+            <format attr='line-visibility' id='refline1' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' value='Country'>
+              <formatted-text>
+                <run>Country</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' value='Period'>
+              <formatted-text>
+                <run>Period</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='off' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:Calculation_2280791758138884105:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - denominator (copy)_2280791758140375053:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - numerator (copy)_2280791758140583950:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' enable-instant-analytics='true' formula='max' id='refline0' label-type='none' scope='per-pane' tooltip-type='none' value-column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758419628081:qk]' z-order='1' />
+            <reference-line axis-column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[Multiple Values]' enable-instant-analytics='true' formula='max' id='refline1' label-type='none' scope='per-pane' tooltip-type='none' value-column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758420017202:qk]' z-order='2' />
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]>  (<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]>)]]></run>
+                <run><![CDATA[
+
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:Calculation_2280791758138884105:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]>
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - numerator (copy)_2280791758140583950:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]>
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - denominator (copy)_2280791758140375053:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02vrhj11i6z04i12a1mek10o5mq8].[Multiple Values]'>
+            <view>
+              <breakdown value='off' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <lod column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' />
+              <lod column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758420017202:qk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:Calculation_2280791758138884105:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - denominator (copy)_2280791758140375053:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - numerator (copy)_2280791758140583950:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]' />
+              <color column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[:Measure Names]' />
+              <size column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]>  (<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]>)]]></run>
+                <run><![CDATA[
+
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:Calculation_2280791758138884105:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]>
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - numerator (copy)_2280791758140583950:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]>
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - denominator (copy)_2280791758140375053:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-transparency' value='98' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]'>
+            <view>
+              <breakdown value='off' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' />
+              <lod column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758419628081:qk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:Calculation_2280791758138884105:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - denominator (copy)_2280791758140375053:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - numerator (copy)_2280791758140583950:nk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]' />
+              <tooltip column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run bold='true'><![CDATA[<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]>  (<[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]>)]]></run>
+                <run><![CDATA[
+
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:Calculation_2280791758138884105:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]>
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - numerator (copy)_2280791758140583950:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:Calculation_2280791758139564042:qk]>
+<[federated.02vrhj11i6z04i12a1mek10o5mq8].[attr:indicator - denominator (copy)_2280791758140375053:nk]>:	<[federated.02vrhj11i6z04i12a1mek10o5mq8].[sum:indicator - numerator (copy)_2280791758139760651:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='all' />
+                <format attr='mark-color' value='#156082' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_916201053597679625:ok:2] * ([federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk] + [federated.02vrhj11i6z04i12a1mek10o5mq8].[Multiple Values]))</rows>
+        <cols>([federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_916201053597491206:ok:2] / [federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk])</cols>
+      </table>
+      <simple-id uuid='{A9A83D3F-AA98-4DC6-B523-3A07BD65E914}' />
+    </worksheet>
+    <worksheet name='main-chart-title'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run>[Parameters].[Parameter 1]</run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clean_pepfar_test_data' name='federated.02vrhj11i6z04i12a1mek10o5mq8' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Trellis columns' datatype='integer' name='[Parameter 17]' param-domain-type='any' role='measure' type='quantitative' value='4'>
+              <calculation class='tableau' formula='4' />
+            </column>
+            <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+              <calculation class='tableau' formula='1' />
+              <aliases>
+                <alias key='1' value='HIV Positivity Rate' />
+                <alias key='2' value='HIV Treatment Linkage Rate' />
+                <alias key='3' value='TB Aware of HIV Status Rate' />
+                <alias key='4' value='TB/HIV Coinfection Rate' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.02vrhj11i6z04i12a1mek10o5mq8'>
+            <column caption='min(10)' datatype='integer' name='[Calculation_2280791758411788327]' role='measure' type='quantitative' user:unnamed='main-chart-title'>
+              <calculation class='tableau' formula='min(10)' />
+            </column>
+            <column caption='min(10)' datatype='integer' name='[Calculation_2280791758411857960]' role='measure' type='quantitative' user:unnamed='main-chart-title'>
+              <calculation class='tableau' formula='min(10)' />
+            </column>
+            <column caption='min(10)' datatype='integer' name='[Calculation_2280791758411878441]' role='measure' type='quantitative' user:unnamed='main-chart-title'>
+              <calculation class='tableau' formula='min(10)' />
+            </column>
+            <column caption='Trellis columns' datatype='integer' name='[Calculation_916201053597491206]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='IIF((INDEX() % [Parameters].[Parameter 17])=0,[Parameters].[Parameter 17],INDEX() % [Parameters].[Parameter 17])'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Trellis row value' datatype='real' name='[Calculation_916201053597601800]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='INDEX()/[Parameters].[Parameter 17]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Trellis rows' datatype='real' name='[Calculation_916201053597679625]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='if [Calculation_916201053597601800]=int([Calculation_916201053597601800]) then &#13;&#10;    [Calculation_916201053597601800]&#13;&#10;elseif &#13;&#10;    [Calculation_916201053597601800]&lt;0 then int([Calculation_916201053597601800]) &#13;&#10;else&#13;&#10;    int([Calculation_916201053597601800]+1)&#13;&#10;end'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <aliases>
+                <alias key='&quot;Democratic Republic of the Congo&quot;' value='DR Congo' />
+              </aliases>
+            </column>
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[period]' derivation='None' name='[none:period:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[period]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2280791758411788327]' derivation='User' name='[usr:Calculation_2280791758411788327:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2280791758411857960]' derivation='User' name='[usr:Calculation_2280791758411857960:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2280791758411878441]' derivation='User' name='[usr:Calculation_2280791758411878441:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_916201053597491206]' derivation='User' name='[usr:Calculation_916201053597491206:ok:2]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[country]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_916201053597679625]' derivation='User' name='[usr:Calculation_916201053597679625:ok:2]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[country]' ordering-type='Field' />
+              <table-calc field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[Calculation_916201053597601800]' ordering-field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[country]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:period:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]</column>
+            <column>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411878441:qk]' field-type='quantitative' fold='true' major-origin='0' major-show='false' major-spacing='10' max='11' min='0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411857960:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10' minor-origin='0' minor-show='false' minor-spacing='1' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411857960:qk]' scope='rows' value='' />
+            <format attr='title' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411878441:qk]' scope='rows' value='' />
+            <format attr='title' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411788327:qk]' scope='cols' value='' />
+            <encoding attr='space' class='0' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411788327:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10' scope='cols' type='space' />
+            <format attr='width' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411857960:qk]' value='100' />
+            <format attr='width' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411878441:qk]' value='100' />
+            <format attr='height' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411788327:qk]' value='76' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_916201053597491206:ok:2]' value='false' />
+            <format attr='display' field='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_916201053597679625:ok:2]' value='false' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+            <format attr='background-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='12'>&lt;</run>
+                <run bold='true' fontsize='12'>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]</run>
+                <run bold='true' fontsize='12'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411857960:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='12'>&lt;</run>
+                <run bold='true' fontsize='12'>[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]</run>
+                <run bold='true' fontsize='12'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411878441:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Polygon' />
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_916201053597679625:ok:2] * ([federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411857960:qk] + [federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411878441:qk]))</rows>
+        <cols>([federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_916201053597491206:ok:2] * [federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:Calculation_2280791758411788327:qk])</cols>
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{28C498C4-ACCC-4566-BE44-BCD43E1C2452}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='one_input_rule_all_demo'>
+      <style />
+      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <datasources>
+        <datasource name='Parameters' />
+        <datasource caption='clean_pepfar_test_data' name='federated.02vrhj11i6z04i12a1mek10o5mq8' />
+      </datasources>
+      <datasource-dependencies datasource='Parameters'>
+        <column alias='HIV Positivity Rate' caption='select indicator' datatype='integer' name='[Parameter 1]' param-domain-type='list' role='measure' type='quantitative' value='1'>
+          <calculation class='tableau' formula='1' />
+          <aliases>
+            <alias key='1' value='HIV Positivity Rate' />
+            <alias key='2' value='HIV Treatment Linkage Rate' />
+            <alias key='3' value='TB Aware of HIV Status Rate' />
+            <alias key='4' value='TB/HIV Coinfection Rate' />
+          </aliases>
+          <members>
+            <member alias='HIV Positivity Rate' value='1' />
+            <member alias='HIV Treatment Linkage Rate' value='2' />
+            <member alias='TB Aware of HIV Status Rate' value='3' />
+            <member alias='TB/HIV Coinfection Rate' value='4' />
+          </members>
+        </column>
+      </datasource-dependencies>
+      <datasource-dependencies datasource='federated.02vrhj11i6z04i12a1mek10o5mq8'>
+        <column datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+          <aliases>
+            <alias key='&quot;Democratic Republic of the Congo&quot;' value='DR Congo' />
+          </aliases>
+        </column>
+        <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+        <column-instance column='[period]' derivation='None' name='[none:period:nk]' pivot='key' type='nominal' />
+        <column datatype='string' name='[period]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='98000' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+          <zone fixed-size='100' h='11111' id='31' is-fixed='true' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone forceUpdate='true' h='11111' id='11' type-v2='text' w='92150' x='800' y='1000'>
+              <formatted-text>
+                <run fontsize='20'>&lt;</run>
+                <run fontsize='20'>[Parameters].[Parameter 1]</run>
+                <run fontsize='20'>&gt;</run>
+              </formatted-text>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='92' h='11111' id='33' is-fixed='true' is-scaled='1' param='Image/logo_dark.png' type-v2='bitmap' w='6250' x='92950' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='background-color' value='#f5f5f5' />
+            </zone-style>
+          </zone>
+          <zone h='86889' id='6' param='horz' type-v2='layout-flow' w='98400' x='800' y='12111'>
+            <zone fixed-size='250' h='86889' id='13' is-fixed='true' param='vert' type-v2='layout-flow' w='15625' x='800' y='12111'>
+              <zone custom-title='true' h='14222' id='10' mode='list' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='15625' x='800' y='12111'>
+                <formatted-text>
+                  <run>Select Indicator</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6778' id='24' mode='checkdropdown' name='main chart' param='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' show-apply='true' type-v2='filter' values='database' w='15625' x='800' y='26333'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6778' id='26' mode='checkdropdown' name='main chart' param='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' show-apply='true' type-v2='filter' values='database' w='15625' x='800' y='33111'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='47444' id='25' type-v2='empty' w='15625' x='800' y='39889'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='11667' id='16' type-v2='text' w='15625' x='800' y='87333'>
+                <formatted-text>
+                  <run>Source: PEPFAR Enhanced Geographical Analysis(</run>
+                  <run auto-url='true' hyperlink='tabdoc:load-url url=&amp;quot;https://data.pepfar.gov/&amp;quot;'>https://data.pepfar.gov/</run>
+                  <run> - downloaded on January 2025. Website no longer available.)</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='0' />
+                  <format attr='background-color' value='#f5f5f5' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='background-color' value='#f5f5f5' />
+              </zone-style>
+            </zone>
+            <zone h='86889' id='17' param='vert' type-v2='layout-flow' w='82775' x='16425' y='12111'>
+              <zone fixed-size='100' h='11111' id='18' is-fixed='true' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='82775' x='16425' y='12111'>
+                <zone h='11111' id='19' name='KPI: %' show-title='false' w='27625' x='16438' y='12111'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='11111' id='20' name='KPI: N' show-title='false' w='27562' x='44063' y='12111'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='11111' id='21' name='KPI: D' show-title='false' w='27563' x='71625' y='12111'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone fixed-size='50' h='5556' id='22' is-fixed='true' param='horz' type-v2='layout-flow' w='82775' x='16425' y='23222'>
+                <zone h='5556' id='15' name='legend' show-title='false' w='82775' x='16425' y='23222'>
+                  <layout-cache minheight='100' minwidth='200' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='background-color' value='#f5f5f5' />
+                </zone-style>
+              </zone>
+              <zone h='70222' id='12' name='main-chart-title' show-title='false' w='82775' x='16425' y='28778'>
+                <layout-cache minheight='376' minwidth='600' type-h='scalable' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+        </zone>
+        <zone h='70333' id='7' name='main chart' show-title='false' w='82563' x='16125' y='28667'>
+          <layout-cache minheight='431' type-h='scalable' type-w='cell' />
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98222' id='36' param='vert' type-v2='layout-flow' w='99000' x='500' y='889'>
+                <zone forceUpdate='true' h='11111' id='11' type-v2='text' w='92150' x='800' y='1000'>
+                  <formatted-text>
+                    <run fontsize='20'>&lt;</run>
+                    <run fontsize='20'>[Parameters].[Parameter 1]</run>
+                    <run fontsize='20'>&gt;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='92' h='11111' id='33' is-fixed='true' is-scaled='1' param='Image/logo_dark.png' type-v2='bitmap' w='6250' x='92950' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone custom-title='true' h='14222' id='10' mode='list' param='[Parameters].[Parameter 1]' type-v2='paramctrl' w='15625' x='800' y='12111'>
+                  <formatted-text>
+                    <run>Select Indicator</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='92' h='11111' id='19' is-fixed='true' name='KPI: %' show-title='false' w='27625' x='16438' y='12111'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='92' h='11111' id='20' is-fixed='true' name='KPI: N' show-title='false' w='27562' x='44063' y='12111'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='92' h='11111' id='21' is-fixed='true' name='KPI: D' show-title='false' w='27563' x='71625' y='12111'>
+                  <layout-cache cell-count-h='1' cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='42' h='5556' id='15' is-fixed='true' name='legend' show-title='false' w='82775' x='16425' y='23222'>
+                  <layout-cache minheight='100' minwidth='200' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6778' id='24' mode='checkdropdown' name='main chart' param='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:country:nk]' show-apply='true' type-v2='filter' values='database' w='15625' x='800' y='26333'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6778' id='26' mode='checkdropdown' name='main chart' param='[federated.02vrhj11i6z04i12a1mek10o5mq8].[none:period:nk]' show-apply='true' type-v2='filter' values='database' w='15625' x='800' y='33111'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='70333' id='7' is-fixed='true' name='main chart' show-title='false' w='82563' x='16125' y='28667'>
+                  <layout-cache minheight='431' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='70222' id='12' is-fixed='true' name='main-chart-title' show-title='false' w='82775' x='16425' y='28778'>
+                  <layout-cache minheight='376' minwidth='600' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11667' id='16' type-v2='text' w='15625' x='800' y='87333'>
+                  <formatted-text>
+                    <run>Source: PEPFAR Enhanced Geographical Analysis(</run>
+                    <run auto-url='true' hyperlink='tabdoc:load-url url=&amp;quot;https://data.pepfar.gov/&amp;quot;'>https://data.pepfar.gov/</run>
+                    <run> - downloaded on January 2025. Website no longer available.)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5f5f5' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7F3C5CDE-06E3-41A6-B96D-03296FCE3492}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='dashboard' name='one_input_rule_all_demo'>
+      <viewpoints>
+        <viewpoint name='KPI: %'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI: D'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='KPI: N'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='legend'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='main chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='main-chart-title'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='16' />
+      <simple-id uuid='{A14AE3D2-E8EA-4130-8972-E0D6135252D5}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='30'>
+            <card type='columns' />
+          </strip>
+          <strip size='30'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{04B31B95-D3C5-46F8-AA26-D033D94DA6FF}' />
+    </window>
+    <window class='worksheet' hidden='true' name='KPI: %'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{DDE10C1D-FE85-4227-80D2-57F5CCDFD004}' />
+    </window>
+    <window class='worksheet' hidden='true' name='KPI: D'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{AC3C3621-71A6-4475-99F5-CEA28BDD0C99}' />
+    </window>
+    <window class='worksheet' hidden='true' name='KPI: N'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{BB77C1A1-E93F-477C-907D-3EBB31EF475C}' />
+    </window>
+    <window class='worksheet' hidden='true' name='legend'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{791A025A-7384-48B5-BABA-7AC4F1C4C2D8}' />
+    </window>
+    <window class='worksheet' hidden='true' name='main chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='148'>
+            <card mode='list' param='[Parameters].[Parameter 1]' type='parameter' />
+            <card pane-specification-id='1' param='[federated.02vrhj11i6z04i12a1mek10o5mq8].[:Measure Names]' type='color' />
+            <card pane-specification-id='1' param='[federated.02vrhj11i6z04i12a1mek10o5mq8].[:Measure Names]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{0D6A7530-F4CC-49A1-BF24-E3C9B22910FF}' />
+    </window>
+    <window class='worksheet' hidden='true' name='main-chart-title'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{30119327-1D01-4495-9D31-E68ECA7EEB31}' />
+    </window>
+  </windows>
+  <_.fcp.DatagraphCoreV1.true...datagraph>
+    <graph>
+      <properties>
+        <default-execution-subgraph-guid value='6d7fff75-6908-4409-8cea-1b87d78a5b4b' />
+      </properties>
+      <node-execution-subgraphs>
+        <pair execution-subgraph-guid='6d7fff75-6908-4409-8cea-1b87d78a5b4b' node-guid='d0df091e-6949-411e-b4f2-f4d63442283e' />
+        <pair execution-subgraph-guid='6d7fff75-6908-4409-8cea-1b87d78a5b4b' node-guid='2391698a-9628-4291-83a9-2d72cb2d1c5f' />
+      </node-execution-subgraphs>
+      <nodes>
+        <_.fcp.DatagraphNodeSingleValueFieldV1.true...single-value-field-node fieldname='[federated.02vrhj11i6z04i12a1mek10o5mq8].[Calculation_2280791758138884105]' fieldname-input-guid='adc7ad2a-d01e-4fbf-b5ec-d586dedbc52d' node-guid='d0df091e-6949-411e-b4f2-f4d63442283e' value-output-guid='3109b6fb-556e-4574-ae2c-0e2a9cb01c64' />
+        <_.fcp.DatagraphNodeAxisTitle.true...axis-title-node duplicate-index='0' fieldname='[federated.02vrhj11i6z04i12a1mek10o5mq8].[usr:indicator - denominator (copy)_2280791758140121100:qk]' node-guid='2391698a-9628-4291-83a9-2d72cb2d1c5f' orientation='vertical' sheet-identifier='{A9A83D3F-AA98-4DC6-B523-3A07BD65E914}' title-input-guid='5a2d411a-9580-479e-8338-26e5a147bad3' />
+      </nodes>
+      <edges>
+        <edge from='3109b6fb-556e-4574-ae2c-0e2a9cb01c64' to='5a2d411a-9580-479e-8338-26e5a147bad3' />
+      </edges>
+      <pin-values />
+    </graph>
+  </_.fcp.DatagraphCoreV1.true...datagraph>
+</workbook>

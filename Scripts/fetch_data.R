@@ -1,15 +1,13 @@
 # AUTHOR:       Kirstin Lyon
 # DATE:         2025-06-17
 # VERSION:      1.0
-# PURPOSE:      Fetch and clean data for Enhanced Geographical Analysis (Mozambique)
+# PURPOSE:      Fetch and clean data for Enhanced Geographical Analysis (SADC Countries)
 # LICENSE:      MIT License
 # DEPENDENCIES: tidyverse, janitor
 # INPUT:        Raw PEPFAR EGA data file (CSV or Excel)
 # OUTPUT:       Cleaned and filtered CSV file for Mozambique
-# NOTES:        Filters only Mozambique data; assumes standard PEPFAR EGA schema
+# NOTES:        Filters only SADC data; assumes standard PEPFAR EGA schema
 # USAGE:        Run script in R environment with dependencies installed
-# CONTACT:      kirstin.lyon@example.com
-# CHANGES:      2025-06-17 - Initial version
 
 
 # Load required libraries----------------------------------------------------
